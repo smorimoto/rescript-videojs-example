@@ -1,0 +1,9 @@
+.cache/*
+dist/*
+lib/bs/*
+node_modules/*
+public/*
+!public/index.html
+.bsb.lock
+.merlin
+*.bs.js

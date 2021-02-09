@@ -1,0 +1,31 @@
+{
+  "name": "rescript-videojs-example",
+  "version": "0.0.0",
+  "author": "Sora Morimoto <sora@morimoto.io>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "fmt": "rescript format -all",
+    "bsb:clean": "rescript clean",
+    "bsb:watch": "rescript build -w",
+    "bsb:build": "rescript",
+    "serve": "serve public -l 3000",
+    "esbuild:build": "esbuild src/Index.bs.js --bundle --minify --sourcemap --outdir=public --define:process.env.NODE_ENV=\\\"production\\\"",
+    "esbuild:watch": "yarn esbuild:build --watch",
+    "dev": "npm-run-all -p *:watch serve",
+    "build": "npm-run-all -s bsb:clean *:build"
+  },
+  "dependencies": {
+    "modern-css-reset": "1.4.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "video.js": "7.11.8"
+  },
+  "devDependencies": {
+    "@rescript/react": "0.10.3",
+    "esbuild": "0.12.5",
+    "npm-run-all": "4.1.5",
+    "rescript": "9.1.2",
+    "serve": "11.3.2"
+  }
+}

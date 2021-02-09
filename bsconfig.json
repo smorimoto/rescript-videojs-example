@@ -1,0 +1,17 @@
+{
+  "name": "rescript-videojs-example",
+  "version": "0.0.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bs-dependencies": ["@rescript/react"],
+  "reason": { "react-jsx": 3 },
+  "bsc-flags": ["-bs-super-errors"],
+  "warnings": { "number": "+A-42-48", "error": "+A-3-44-102-103" },
+  "package-specs": {
+    "in-source": true,
+    "module": "es6"
+  },
+  "suffix": ".bs.js"
+}
