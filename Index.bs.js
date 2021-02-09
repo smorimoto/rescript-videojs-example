@@ -40012,20 +40012,9 @@
 
   // src/App.bs.js
   function App(Props) {
-    return React2.createElement("div", {
-      style: {
-        display: "flex",
-        alignItems: "center",
-        flexDirection: "column"
-      }
-    }, React2.createElement("div", {
-      style: {
-        height: "50%",
-        width: "50%"
-      }
-    }, React2.createElement(make, {
+    return React2.createElement("div", void 0, React2.createElement(make, {
       url: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-    })));
+    }));
   }
   var make2 = App;
 
