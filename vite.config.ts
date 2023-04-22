@@ -2,6 +2,7 @@ import rescript from "@jihchi/vite-plugin-rescript";
 import react from "@vitejs/plugin-react-swc";
 import { defineConfig } from "vite";
 import { dependencies } from "./package.json";
+import * as process from "node:process";
 
 function createManualChunks(
   deps: Record<string, string>
@@ -15,6 +16,9 @@ function createManualChunks(
 }
 
 export default defineConfig({
+  base: process.env.CI
+    ? "https://smorimoto.github.io/rescript-videojs-example/"
+    : "/",
   build: {
     rollupOptions: {
       output: {

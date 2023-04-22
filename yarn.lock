@@ -340,6 +340,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:18.15.13":
+  version: 18.15.13
+  resolution: "@types/node@npm:18.15.13"
+  checksum: 79cc5a2b5f98e8973061a4260a781425efd39161a0e117a69cd089603964816c1a14025e1387b4590c8e82d05133b7b4154fa53a7dffb3877890a66145e76515
+  languageName: node
+  linkType: hard
+
 "@videojs/http-streaming@npm:3.0.0":
   version: 3.0.0
   resolution: "@videojs/http-streaming@npm:3.0.0"
@@ -1517,6 +1524,7 @@ __metadata:
   dependencies:
     "@jihchi/vite-plugin-rescript": 5.1.0
     "@rescript/react": 0.11.0
+    "@types/node": 18.15.13
     "@vitejs/plugin-react-swc": 3.3.0
     modern-css-reset: 1.4.0
     react: 18.2.0
