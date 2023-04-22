@@ -1,4 +1,4 @@
-%%raw("import 'video.js/dist/video-js.css'")
+%%raw("import 'video.js/dist/video-js.min.css'")
 
 @react.component
 let make = (~url) => {

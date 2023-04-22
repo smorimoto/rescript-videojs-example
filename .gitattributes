@@ -1,0 +1,10 @@
+# Default behaviour, for if core.autocrlf isn't set
+* text=auto
+
+# the linguist-vendored attribute suppresses changes being displayed by default
+# in pull requests.
+/.yarn/** linguist-vendored
+
+# Binary files
+/.yarn/releases/* binary
+/.yarn/plugins/**/* binary

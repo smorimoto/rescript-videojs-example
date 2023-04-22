@@ -6,9 +6,10 @@
     "subdirs": true
   },
   "bs-dependencies": ["@rescript/react"],
-  "reason": { "react-jsx": 3 },
-  "bsc-flags": ["-bs-super-errors"],
-  "warnings": { "number": "+A-42-48", "error": "+A-3-44-102-103" },
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
   "package-specs": {
     "in-source": true,
     "module": "es6"
