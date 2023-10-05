@@ -1,5 +1,4 @@
 import rescript from "@jihchi/vite-plugin-rescript";
-import react from "@vitejs/plugin-react-swc";
 import { defineConfig } from "vite";
 import { dependencies } from "./package.json";
 import * as process from "node:process";
@@ -20,6 +19,7 @@ export default defineConfig({
     ? "https://smorimoto.github.io/rescript-videojs-example/"
     : "/",
   build: {
+    cssMinify: "lightningcss",
     rollupOptions: {
       output: {
         manualChunks: {
@@ -29,5 +29,8 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(), rescript()],
+  css: {
+    transformer: "lightningcss",
+  },
+  plugins: [rescript()],
 });
