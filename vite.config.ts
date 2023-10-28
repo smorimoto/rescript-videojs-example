@@ -4,11 +4,11 @@ import { dependencies } from "./package.json";
 import * as process from "node:process";
 
 function createManualChunks(
-  deps: Record<string, string>
+  deps: Record<string, string>,
 ): Record<string, string[]> {
   const $deps = Object.keys(deps).filter(
     (dep) =>
-      dep !== "react" && dep !== "react-dom" && dep !== "modern-css-reset"
+      dep !== "react" && dep !== "react-dom" && dep !== "modern-css-reset",
   );
   const chunks = $deps.reduce((acc, dep) => ({ ...acc, [dep]: [dep] }), {});
   return chunks;
