@@ -6,7 +6,7 @@
   "author": "Sora Morimoto <sora@morimoto.io>",
   "scripts": {
     "build": "rescript clean && vite build",
-    "dev": "rescript clean && vite",
+    "dev": "vite",
     "format": "prettier --write . && rescript format -all"
   },
   "dependencies": {
