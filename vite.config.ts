@@ -33,4 +33,7 @@ export default defineConfig({
     transformer: "lightningcss",
   },
   plugins: [rescript()],
+  server: {
+    port: 3000,
+  },
 });

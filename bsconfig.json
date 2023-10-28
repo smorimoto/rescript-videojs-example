@@ -1,18 +1,19 @@
 {
   "name": "rescript-videojs-example",
   "version": "0.0.0",
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
   "bs-dependencies": ["@rescript/react"],
+  "bsc-flags": ["-open Belt"],
   "jsx": {
-    "version": 4,
-    "mode": "automatic"
+    "mode": "automatic",
+    "version": 4
   },
   "package-specs": {
     "in-source": true,
     "module": "es6"
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
   },
   "suffix": ".bs.js"
 }

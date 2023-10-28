@@ -6,7 +6,7 @@ let make = (~url) => {
 
   React.useEffect1(() => {
     let video = Videojs.videojs(
-      ~tag=videoRef.current->Js.Nullable.toOption->Belt.Option.getExn,
+      ~tag=videoRef.current->Js.Nullable.toOption->Option.getExn,
       ~options={
         autoplay: false,
         controls: true,
