@@ -23,5 +23,5 @@
     "vite": "4.4.11"
   },
   "private": true,
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@4.0.0+sha256.6d855253732ba8d231b6cd917961654f6c8439164c962a4e355c9c58360ebe44"
 }
