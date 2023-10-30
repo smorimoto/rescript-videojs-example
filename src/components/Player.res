@@ -1,5 +1,3 @@
-%%raw("import 'video.js/dist/video-js.min.css'")
-
 @react.component
 let make = (~url) => {
   let videoRef = React.useRef(Js.Nullable.null)
