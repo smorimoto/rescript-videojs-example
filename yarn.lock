@@ -1787,20 +1787,20 @@ __metadata:
     prettier-plugin-packagejson: "npm:2.4.6"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    rescript: "npm:11.0.0-rc.4"
+    rescript: "npm:11.0.0-rc.5"
     video.js: "npm:8.6.1"
     vite: "npm:4.5.0"
   languageName: unknown
   linkType: soft
 
-"rescript@npm:11.0.0-rc.4":
-  version: 11.0.0-rc.4
-  resolution: "rescript@npm:11.0.0-rc.4"
+"rescript@npm:11.0.0-rc.5":
+  version: 11.0.0-rc.5
+  resolution: "rescript@npm:11.0.0-rc.5"
   bin:
     bsc: bsc
     bstracing: lib/bstracing
     rescript: rescript
-  checksum: e5a097b2d5bbfc1ec72f607bbc633fa1bd2bccd1aa6766f6ade175754f2b68b14d21a71c05f7afbd588b94a90ec4e8a3a670bf1d9f30f5254e347585d2cdc3d2
+  checksum: c6aa8929c1d0fa90d97f6a3d6a1a52547e71227870a2a4e8e24e3ac2c101f6e51119fa80acd222f7595a8921fff8d7a765e927d16aa3a35b35fde5439eeeaa80
   languageName: node
   linkType: hard
 
