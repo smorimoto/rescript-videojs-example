@@ -1,6 +1,5 @@
 {
   "name": "rescript-videojs-example",
-  "version": "0.0.0",
   "bs-dependencies": ["@rescript/react"],
   "bsc-flags": ["-open Belt"],
   "jsx": {

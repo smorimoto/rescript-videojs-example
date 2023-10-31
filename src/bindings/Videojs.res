@@ -1,16 +1,25 @@
 type t
 
+@dead
 type playerOptions = {
-  autoplay: bool,
-  controls: bool,
-  fluid: bool,
+  autoplay?: bool,
+  controls?: bool,
+  fluid?: bool,
 }
 
 @module("video.js")
-external videojs: (~tag: Dom.element, ~options: playerOptions) => t = "default"
+external videojs: (
+  ~id: @unwrap
+  [
+    | #String(string)
+    | #Element(Dom.element)
+  ],
+  ~options: playerOptions,
+  ~ready: unit => 'a=?,
+) => t = "default"
 
-@send external src: (t, string) => unit = "src"
+@send @return(nullable) external src: (t, string) => option<string> = "src"
 
 @send external dispose: (t, unit) => unit = "dispose"
 
-@send external ready: (t, ~fn: unit, ~sync: bool) => unit = "ready"
+@send external ready: (t, ~fn: unit => 'a, ~sync: bool=?) => unit = "ready"

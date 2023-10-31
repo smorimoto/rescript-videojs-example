@@ -1,6 +1,5 @@
 {
   "name": "rescript-videojs-example",
-  "version": "0.0.0",
   "private": true,
   "license": "ISC",
   "author": "Sora Morimoto <sora@morimoto.io>",
@@ -22,7 +21,7 @@
     "lightningcss": "1.22.0",
     "prettier": "3.0.3",
     "prettier-plugin-packagejson": "2.4.6",
-    "rescript": "10.1.4",
+    "rescript": "11.0.0-rc.4",
     "vite": "4.5.0"
   },
   "packageManager": "yarn@4.0.1"

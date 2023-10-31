@@ -4,7 +4,7 @@ let make = (~url) => {
 
   React.useEffect1(() => {
     let video = Videojs.videojs(
-      ~tag=videoRef.current->Js.Nullable.toOption->Option.getExn,
+      ~id=#Element(videoRef.current->Js.toOption->Option.getUnsafe),
       ~options={
         autoplay: false,
         controls: true,
@@ -12,7 +12,7 @@ let make = (~url) => {
       },
     )
 
-    video->Videojs.ready(~fn=Videojs.src(video, url), ~sync=true)
+    video->Videojs.ready(~fn=() => Videojs.src(video, url), ~sync=true)
 
     Some(() => video->Videojs.dispose())
   }, [url])

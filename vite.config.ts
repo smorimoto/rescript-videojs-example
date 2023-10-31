@@ -6,11 +6,10 @@ import * as process from "node:process";
 function createManualChunks(
   deps: Record<string, string>,
 ): Record<string, string[]> {
-  const $deps = Object.keys(deps).filter(
-    (dep) =>
-      dep !== "react" && dep !== "react-dom" && dep !== "modern-css-reset",
-  );
-  const chunks = $deps.reduce((acc, dep) => ({ ...acc, [dep]: [dep] }), {});
+  const ignore = new Set(["react", "react-dom", "modern-css-reset"]);
+  const chunks = Object.keys(deps)
+    .filter((dep) => !ignore.has(dep))
+    .reduce((acc, dep) => ({ ...acc, [dep]: [dep] }), {});
   return chunks;
 }
 
