@@ -2,6 +2,7 @@ import * as process from "node:process";
 
 import rescript from "@jihchi/vite-plugin-rescript";
 import { defineConfig } from "vite";
+import { ViteEjsPlugin } from "vite-plugin-ejs";
 
 import { dependencies } from "./package.json";
 
@@ -31,7 +32,7 @@ export default defineConfig({
   css: {
     transformer: "lightningcss",
   },
-  plugins: [rescript()],
+  plugins: [rescript(), ViteEjsPlugin()],
   server: {
     port: 3000,
   },
