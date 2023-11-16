@@ -19,11 +19,11 @@
     "@rescript/react": "0.11.0",
     "@types/node": "20.9.0",
     "lightningcss": "1.22.1",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "prettier-plugin-packagejson": "2.4.6",
     "react-devtools": "4.28.5",
     "rescript": "11.0.0-rc.5",
-    "vite": "4.5.0",
+    "vite": "5.0.0",
     "vite-plugin-ejs": "1.6.4"
   },
   "packageManager": "yarn@4.0.2+sha256.825003a0f561ad09a3b1ac4a3b3ea6207af2796d54f62a9420520915721f5186"
