@@ -3,6 +3,7 @@
   "private": true,
   "license": "ISC",
   "author": "Sora Morimoto <sora@morimoto.io>",
+  "type": "module",
   "scripts": {
     "build": "rescript clean && vite build",
     "dev": "vite & react-devtools",
