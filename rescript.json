@@ -14,5 +14,5 @@
     "dir": "src",
     "subdirs": true
   },
-  "suffix": ".bs.js"
+  "suffix": ".res.mjs"
 }
