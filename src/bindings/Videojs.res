@@ -1,6 +1,6 @@
 type t
 
-@dead
+@live
 type playerOptions = {
   autoplay?: bool,
   controls?: bool,
