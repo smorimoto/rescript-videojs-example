@@ -285,13 +285,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/react@npm:0.11.0":
-  version: 0.11.0
-  resolution: "@rescript/react@npm:0.11.0"
+"@rescript/react@npm:0.12.0":
+  version: 0.12.0
+  resolution: "@rescript/react@npm:0.12.0"
   peerDependencies:
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
-  checksum: e4f7a276d0d6b5b44f68724f9ef4231c604521db97ab77176352d94c687fe807d92f18697e369ac2544b07a79d741efa8d5f4381eae84add839c160d27e37ad5
+  checksum: db25d0229e6fa7cf82ed7a513e202ea1a616d26551fde27e425f94b70dc238616a0a8d1e58a2e59e5772dd7595c3490353334b6ef9451806fc3504f8f83bd728
   languageName: node
   linkType: hard
 
@@ -437,12 +437,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.10.8":
-  version: 20.10.8
-  resolution: "@types/node@npm:20.10.8"
+"@types/node@npm:*, @types/node@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@types/node@npm:20.11.0"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 93268c33c3bf0194427d696658160c77ab8661aa57107df5b248ff952898a372bf92cf0ba7fc07788fa35e59c69b6619cce63d45e4e67fca806e37da7ea42512
+  checksum: 560aa850dfccb83326f9cba125459f6c3fb0c71ec78f22c61e4d248f1df78bd25fd6792cef573dfbdc49c882f8e38bb1a82ca87e0e28ff2513629c704c2b02af
   languageName: node
   linkType: hard
 
@@ -2767,8 +2767,8 @@ __metadata:
   resolution: "rescript-videojs-example@workspace:."
   dependencies:
     "@jihchi/vite-plugin-rescript": "npm:5.5.0"
-    "@rescript/react": "npm:0.11.0"
-    "@types/node": "npm:20.10.8"
+    "@rescript/react": "npm:0.12.0"
+    "@types/node": "npm:20.11.0"
     lightningcss: "npm:1.22.1"
     modern-css-reset: "npm:1.4.0"
     prettier: "npm:3.1.1"
@@ -2776,21 +2776,21 @@ __metadata:
     react: "npm:18.2.0"
     react-devtools: "npm:5.0.0"
     react-dom: "npm:18.2.0"
-    rescript: "npm:11.0.0-rc.9"
+    rescript: "npm:11.0.0"
     video.js: "npm:8.9.0"
     vite: "npm:5.0.11"
     vite-plugin-ejs: "npm:1.7.0"
   languageName: unknown
   linkType: soft
 
-"rescript@npm:11.0.0-rc.9":
-  version: 11.0.0-rc.9
-  resolution: "rescript@npm:11.0.0-rc.9"
+"rescript@npm:11.0.0":
+  version: 11.0.0
+  resolution: "rescript@npm:11.0.0"
   bin:
     bsc: bsc
     bstracing: lib/bstracing
     rescript: rescript
-  checksum: 8d4fed5f7416422ca1ab3ad6cd2fbbb0345acac6dbb9f01af22f0910a43a2a9a0d1ecce4ec648a332f404b59f71efaf1e8ff10c09925850951da602cc675dc50
+  checksum: 22736872fa74a3f2efb03d6684e7d17ca310e3783c29d34bceca250cb9383ea6637526e03d328704214c91c4701408e565d34afc8a39e83011983c8872731731
   languageName: node
   linkType: hard
 
