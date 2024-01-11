@@ -285,6 +285,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rescript/core@npm:0.6.0":
+  version: 0.6.0
+  resolution: "@rescript/core@npm:0.6.0"
+  peerDependencies:
+    rescript: "*"
+  checksum: 1976f90582d1fe368449b0c6d46d6173625f66c18ac99d02cefecf41ea05d36bf50c23e71b70ac5045376216f843e95d80d6cf22a67c9d7811f8a7bc668b8cc8
+  languageName: node
+  linkType: hard
+
 "@rescript/react@npm:0.12.0":
   version: 0.12.0
   resolution: "@rescript/react@npm:0.12.0"
@@ -2767,6 +2776,7 @@ __metadata:
   resolution: "rescript-videojs-example@workspace:."
   dependencies:
     "@jihchi/vite-plugin-rescript": "npm:5.5.0"
+    "@rescript/core": "npm:0.6.0"
     "@rescript/react": "npm:0.12.0"
     "@types/node": "npm:20.11.0"
     lightningcss: "npm:1.22.1"

@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "5.5.0",
+    "@rescript/core": "0.6.0",
     "@rescript/react": "0.12.0",
     "@types/node": "20.11.0",
     "lightningcss": "1.22.1",

@@ -1,7 +1,7 @@
 {
   "name": "rescript-videojs-example",
-  "bs-dependencies": ["@rescript/react"],
-  "bsc-flags": ["-open Belt"],
+  "bs-dependencies": ["@rescript/core","@rescript/react"],
+  "bsc-flags": ["-open RescriptCore"],
   "jsx": {
     "mode": "automatic",
     "version": 4
