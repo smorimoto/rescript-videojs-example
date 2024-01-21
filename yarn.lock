@@ -279,9 +279,9 @@ __metadata:
   linkType: hard
 
 "@pkgr/core@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@pkgr/core@npm:0.1.0"
-  checksum: 8f4a0aa6cc1c445fec4f5f12157047e8a05e30b5c03441156f40203d6430f84d15135e8f1a6886e6c9800ff0e4a75d9d3419a43dbcd7490683f2882375a3b99a
+  version: 0.1.1
+  resolution: "@pkgr/core@npm:0.1.1"
+  checksum: 3f7536bc7f57320ab2cf96f8973664bef624710c403357429fbf680a5c3b4843c1dbd389bb43daa6b1f6f1f007bb082f5abcb76bb2b5dc9f421647743b71d3d8
   languageName: node
   linkType: hard
 
@@ -304,93 +304,93 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-android-arm-eabi@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-android-arm-eabi@npm:4.9.4"
+"@rollup/rollup-android-arm-eabi@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-android-arm-eabi@npm:4.9.5"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@rollup/rollup-android-arm64@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-android-arm64@npm:4.9.4"
+"@rollup/rollup-android-arm64@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-android-arm64@npm:4.9.5"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-darwin-arm64@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-darwin-arm64@npm:4.9.4"
+"@rollup/rollup-darwin-arm64@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-darwin-arm64@npm:4.9.5"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-darwin-x64@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-darwin-x64@npm:4.9.4"
+"@rollup/rollup-darwin-x64@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-darwin-x64@npm:4.9.5"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm-gnueabihf@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-linux-arm-gnueabihf@npm:4.9.4"
+"@rollup/rollup-linux-arm-gnueabihf@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-arm-gnueabihf@npm:4.9.5"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm64-gnu@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-linux-arm64-gnu@npm:4.9.4"
+"@rollup/rollup-linux-arm64-gnu@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-arm64-gnu@npm:4.9.5"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm64-musl@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-linux-arm64-musl@npm:4.9.4"
+"@rollup/rollup-linux-arm64-musl@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-arm64-musl@npm:4.9.5"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-riscv64-gnu@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-linux-riscv64-gnu@npm:4.9.4"
+"@rollup/rollup-linux-riscv64-gnu@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-riscv64-gnu@npm:4.9.5"
   conditions: os=linux & cpu=riscv64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.9.4"
+"@rollup/rollup-linux-x64-gnu@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.9.5"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-musl@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-linux-x64-musl@npm:4.9.4"
+"@rollup/rollup-linux-x64-musl@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-x64-musl@npm:4.9.5"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-arm64-msvc@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-win32-arm64-msvc@npm:4.9.4"
+"@rollup/rollup-win32-arm64-msvc@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-win32-arm64-msvc@npm:4.9.5"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-ia32-msvc@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-win32-ia32-msvc@npm:4.9.4"
+"@rollup/rollup-win32-ia32-msvc@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-win32-ia32-msvc@npm:4.9.5"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-x64-msvc@npm:4.9.4":
-  version: 4.9.4
-  resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.4"
+"@rollup/rollup-win32-x64-msvc@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.5"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -446,19 +446,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.11.0":
-  version: 20.11.0
-  resolution: "@types/node@npm:20.11.0"
+"@types/node@npm:*, @types/node@npm:20.11.5":
+  version: 20.11.5
+  resolution: "@types/node@npm:20.11.5"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 560aa850dfccb83326f9cba125459f6c3fb0c71ec78f22c61e4d248f1df78bd25fd6792cef573dfbdc49c882f8e38bb1a82ca87e0e28ff2513629c704c2b02af
+  checksum: 6d18cec852f5cfbed3ec42b5c01c026e7a3f9da540d6e3d6738d4cee9979fb308cf27b6df7ba40a6553e7bc82e678f0ef53ba6e6ad52e5b86bd97b7783c2a42c
   languageName: node
   linkType: hard
 
 "@types/node@npm:^16.11.26":
-  version: 16.18.70
-  resolution: "@types/node@npm:16.18.70"
-  checksum: 5a0b65401995be50ff0fc7f6886ff429b4fc1a14d633b6c84001a49e145f7450d98aad9783ae459f5554315ddca98b12594ed9d5ff71d7560678fb9f7fe7b201
+  version: 16.18.73
+  resolution: "@types/node@npm:16.18.73"
+  checksum: fda7461fa929644a290ea4c4563619f7b52cf7e54e304d19078ed46c68f52a7b0819a1181795026e617c13073b2f887f29e10979458c9968679a5dcdf2efce68
   languageName: node
   linkType: hard
 
@@ -480,9 +480,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@videojs/http-streaming@npm:3.9.1":
-  version: 3.9.1
-  resolution: "@videojs/http-streaming@npm:3.9.1"
+"@videojs/http-streaming@npm:3.10.0":
+  version: 3.10.0
+  resolution: "@videojs/http-streaming@npm:3.10.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@videojs/vhs-utils": "npm:4.0.0"
@@ -494,7 +494,7 @@ __metadata:
     video.js: "npm:^7 || ^8"
   peerDependencies:
     video.js: ^7 || ^8
-  checksum: af55fda655823afffce57e97d8de70861a35e5b5534f8c83bf9d9fdc4123c1531f74f45116b429a7c08c96afe612f5fa16b8d8464f490de1f49c0250b2f376dd
+  checksum: 154d8cf87d29ee9fb67b85b64827dd1f8112951a52fd861fe7bf12c4262e1b2ac22183db8b57cbaf9ef4d3fec9b4d29108371a7e84f1f0668e662adbff44a735
   languageName: node
   linkType: hard
 
@@ -1951,83 +1951,83 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lightningcss-darwin-arm64@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-darwin-arm64@npm:1.22.1"
+"lightningcss-darwin-arm64@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-darwin-arm64@npm:1.23.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"lightningcss-darwin-x64@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-darwin-x64@npm:1.22.1"
+"lightningcss-darwin-x64@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-darwin-x64@npm:1.23.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"lightningcss-freebsd-x64@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-freebsd-x64@npm:1.22.1"
+"lightningcss-freebsd-x64@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-freebsd-x64@npm:1.23.0"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lightningcss-linux-arm-gnueabihf@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-linux-arm-gnueabihf@npm:1.22.1"
+"lightningcss-linux-arm-gnueabihf@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-linux-arm-gnueabihf@npm:1.23.0"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"lightningcss-linux-arm64-gnu@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-linux-arm64-gnu@npm:1.22.1"
+"lightningcss-linux-arm64-gnu@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-linux-arm64-gnu@npm:1.23.0"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"lightningcss-linux-arm64-musl@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-linux-arm64-musl@npm:1.22.1"
+"lightningcss-linux-arm64-musl@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-linux-arm64-musl@npm:1.23.0"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"lightningcss-linux-x64-gnu@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-linux-x64-gnu@npm:1.22.1"
+"lightningcss-linux-x64-gnu@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-linux-x64-gnu@npm:1.23.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"lightningcss-linux-x64-musl@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-linux-x64-musl@npm:1.22.1"
+"lightningcss-linux-x64-musl@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-linux-x64-musl@npm:1.23.0"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"lightningcss-win32-x64-msvc@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss-win32-x64-msvc@npm:1.22.1"
+"lightningcss-win32-x64-msvc@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss-win32-x64-msvc@npm:1.23.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"lightningcss@npm:1.22.1":
-  version: 1.22.1
-  resolution: "lightningcss@npm:1.22.1"
+"lightningcss@npm:1.23.0":
+  version: 1.23.0
+  resolution: "lightningcss@npm:1.23.0"
   dependencies:
     detect-libc: "npm:^1.0.3"
-    lightningcss-darwin-arm64: "npm:1.22.1"
-    lightningcss-darwin-x64: "npm:1.22.1"
-    lightningcss-freebsd-x64: "npm:1.22.1"
-    lightningcss-linux-arm-gnueabihf: "npm:1.22.1"
-    lightningcss-linux-arm64-gnu: "npm:1.22.1"
-    lightningcss-linux-arm64-musl: "npm:1.22.1"
-    lightningcss-linux-x64-gnu: "npm:1.22.1"
-    lightningcss-linux-x64-musl: "npm:1.22.1"
-    lightningcss-win32-x64-msvc: "npm:1.22.1"
+    lightningcss-darwin-arm64: "npm:1.23.0"
+    lightningcss-darwin-x64: "npm:1.23.0"
+    lightningcss-freebsd-x64: "npm:1.23.0"
+    lightningcss-linux-arm-gnueabihf: "npm:1.23.0"
+    lightningcss-linux-arm64-gnu: "npm:1.23.0"
+    lightningcss-linux-arm64-musl: "npm:1.23.0"
+    lightningcss-linux-x64-gnu: "npm:1.23.0"
+    lightningcss-linux-x64-musl: "npm:1.23.0"
+    lightningcss-win32-x64-msvc: "npm:1.23.0"
   dependenciesMeta:
     lightningcss-darwin-arm64:
       optional: true
@@ -2047,7 +2047,7 @@ __metadata:
       optional: true
     lightningcss-win32-x64-msvc:
       optional: true
-  checksum: b1e5f740b729bb786222b2bed1e87ef059c30bf31998aea284a51de6328d0ff51345713574a721f2b6e7fbb5893721fae9754d029fc0642150adc3548862c8e5
+  checksum: d8ba1e9a4533a98c239ed2baede87c0b9128a26ea152552935769d40ee22c7c2d658d51d285a30535e197668daf856364774ce2a8f855f07143b91a1fab49d55
   languageName: node
   linkType: hard
 
@@ -2613,12 +2613,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.1.1":
-  version: 3.1.1
-  resolution: "prettier@npm:3.1.1"
+"prettier@npm:3.2.4":
+  version: 3.2.4
+  resolution: "prettier@npm:3.2.4"
   bin:
     prettier: bin/prettier.cjs
-  checksum: facc944ba20e194ff4db765e830ffbcb642803381f0d2033ed397e79904fa4ccc877dc25ad68f42d36985c01d051c990ca1b905fb83d2d7d65fe69e4386fa1a3
+  checksum: 88dfeb78ac6096522c9a5b81f1413d875f568420d9bb6a5e5103527912519b993f2bcdcac311fcff5718d5869671d44e4f85827d3626f3a6ce32b9abc65d88e0
   languageName: node
   linkType: hard
 
@@ -2778,29 +2778,29 @@ __metadata:
     "@jihchi/vite-plugin-rescript": "npm:5.5.0"
     "@rescript/core": "npm:0.6.0"
     "@rescript/react": "npm:0.12.0"
-    "@types/node": "npm:20.11.0"
-    lightningcss: "npm:1.22.1"
+    "@types/node": "npm:20.11.5"
+    lightningcss: "npm:1.23.0"
     modern-css-reset: "npm:1.4.0"
-    prettier: "npm:3.1.1"
+    prettier: "npm:3.2.4"
     prettier-plugin-packagejson: "npm:2.4.9"
     react: "npm:18.2.0"
     react-devtools: "npm:5.0.0"
     react-dom: "npm:18.2.0"
-    rescript: "npm:11.0.0"
-    video.js: "npm:8.9.0"
-    vite: "npm:5.0.11"
+    rescript: "npm:11.0.1"
+    video.js: "npm:8.10.0"
+    vite: "npm:5.0.12"
     vite-plugin-ejs: "npm:1.7.0"
   languageName: unknown
   linkType: soft
 
-"rescript@npm:11.0.0":
-  version: 11.0.0
-  resolution: "rescript@npm:11.0.0"
+"rescript@npm:11.0.1":
+  version: 11.0.1
+  resolution: "rescript@npm:11.0.1"
   bin:
     bsc: bsc
     bstracing: lib/bstracing
     rescript: rescript
-  checksum: 22736872fa74a3f2efb03d6684e7d17ca310e3783c29d34bceca250cb9383ea6637526e03d328704214c91c4701408e565d34afc8a39e83011983c8872731731
+  checksum: a37dc757a14c57a15fe75a12df52f3d564cc6ef5cacc8356fe70a7d4ab9692736c0fbb56456dff090d8b5b18935a09aed066c623e6764f4c76bed61187e611b7
   languageName: node
   linkType: hard
 
@@ -2849,22 +2849,22 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^4.2.0":
-  version: 4.9.4
-  resolution: "rollup@npm:4.9.4"
+  version: 4.9.5
+  resolution: "rollup@npm:4.9.5"
   dependencies:
-    "@rollup/rollup-android-arm-eabi": "npm:4.9.4"
-    "@rollup/rollup-android-arm64": "npm:4.9.4"
-    "@rollup/rollup-darwin-arm64": "npm:4.9.4"
-    "@rollup/rollup-darwin-x64": "npm:4.9.4"
-    "@rollup/rollup-linux-arm-gnueabihf": "npm:4.9.4"
-    "@rollup/rollup-linux-arm64-gnu": "npm:4.9.4"
-    "@rollup/rollup-linux-arm64-musl": "npm:4.9.4"
-    "@rollup/rollup-linux-riscv64-gnu": "npm:4.9.4"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.9.4"
-    "@rollup/rollup-linux-x64-musl": "npm:4.9.4"
-    "@rollup/rollup-win32-arm64-msvc": "npm:4.9.4"
-    "@rollup/rollup-win32-ia32-msvc": "npm:4.9.4"
-    "@rollup/rollup-win32-x64-msvc": "npm:4.9.4"
+    "@rollup/rollup-android-arm-eabi": "npm:4.9.5"
+    "@rollup/rollup-android-arm64": "npm:4.9.5"
+    "@rollup/rollup-darwin-arm64": "npm:4.9.5"
+    "@rollup/rollup-darwin-x64": "npm:4.9.5"
+    "@rollup/rollup-linux-arm-gnueabihf": "npm:4.9.5"
+    "@rollup/rollup-linux-arm64-gnu": "npm:4.9.5"
+    "@rollup/rollup-linux-arm64-musl": "npm:4.9.5"
+    "@rollup/rollup-linux-riscv64-gnu": "npm:4.9.5"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.9.5"
+    "@rollup/rollup-linux-x64-musl": "npm:4.9.5"
+    "@rollup/rollup-win32-arm64-msvc": "npm:4.9.5"
+    "@rollup/rollup-win32-ia32-msvc": "npm:4.9.5"
+    "@rollup/rollup-win32-x64-msvc": "npm:4.9.5"
     "@types/estree": "npm:1.0.5"
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -2898,7 +2898,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 3a494f2d922bf8e03c4110f6582233e31a0ff584b2bab472f8718e7a81dd875ba0d813d6d3bb0532f68a8521aacd804fe0bc7607eeeae3ec62ce4f468cdf092d
+  checksum: 7f241ad4028f32c1300eb8391493f192f622ed7e9564f993d8f3862be32dd995c8237f4691ea76327a323ef62808495a497eabf0c8fb0c6fa6556a69653a449f
   languageName: node
   linkType: hard
 
@@ -3393,12 +3393,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.9.0, video.js@npm:^7 || ^8":
-  version: 8.9.0
-  resolution: "video.js@npm:8.9.0"
+"video.js@npm:8.10.0, video.js@npm:^7 || ^8":
+  version: 8.10.0
+  resolution: "video.js@npm:8.10.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
-    "@videojs/http-streaming": "npm:3.9.1"
+    "@videojs/http-streaming": "npm:3.10.0"
     "@videojs/vhs-utils": "npm:^4.0.0"
     "@videojs/xhr": "npm:2.6.0"
     aes-decrypter: "npm:^4.0.1"
@@ -3411,7 +3411,7 @@ __metadata:
     videojs-contrib-quality-levels: "npm:4.0.0"
     videojs-font: "npm:4.1.0"
     videojs-vtt.js: "npm:0.15.5"
-  checksum: 4b9139659cfea4cc5d58b57d0ccc693dffaaf40bd6e53c6ebf90389963459747b2a917a5e3f23390595abd5580b85b0ae73ed894ed72a071baa4a05e47de955d
+  checksum: 6f126eecd2b229bc637085a26ae9bb866b30baef913c46ae54d46be8269ec7136a22a4a75b661bfb7225dd06204c2628003fe1e626eddae407973e21b6052247
   languageName: node
   linkType: hard
 
@@ -3453,9 +3453,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.0.11":
-  version: 5.0.11
-  resolution: "vite@npm:5.0.11"
+"vite@npm:5.0.12":
+  version: 5.0.12
+  resolution: "vite@npm:5.0.12"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -3489,7 +3489,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 74a3ddc6d43cf19cb6f827a53d77c481a07517a72b7d82a178df082012ad81ab5231a287a6dcc5471c0b2a5c8dd7e6ea8e1d62d268803057d0315729f09c5e33
+  checksum: c51b8e458851943c903fddde6973e720099ef8a5f364fb107cddade59c9e90f6d9ad98b61a7419cdfa0c6374236e10bff965d0c2d9e7b1790c68b874e5e7950c
   languageName: node
   linkType: hard
 
