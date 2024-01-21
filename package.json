@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "rescript clean && vite build",
+    "ci": "biome ci .",
     "dev": "vite & react-devtools",
-    "format": "prettier --write . && rescript format -all"
+    "format": "biome format --write . && rescript format -all"
   },
   "dependencies": {
     "modern-css-reset": "1.4.0",
@@ -16,13 +17,12 @@
     "video.js": "8.10.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.5.2",
     "@jihchi/vite-plugin-rescript": "5.5.0",
     "@rescript/core": "0.6.0",
     "@rescript/react": "0.12.0",
     "@types/node": "20.11.5",
     "lightningcss": "1.23.0",
-    "prettier": "3.2.4",
-    "prettier-plugin-packagejson": "2.4.9",
     "react-devtools": "5.0.0",
     "rescript": "11.0.1",
     "vite": "5.0.12",
