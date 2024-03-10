@@ -3,6 +3,7 @@
   "private": true,
   "license": "ISC",
   "author": "Sora Morimoto <sora@morimoto.io>",
+  "sideEffects": false,
   "type": "module",
   "scripts": {
     "build": "rescript clean && vite build",
@@ -14,19 +15,19 @@
     "modern-css-reset": "1.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "video.js": "8.11.5"
+    "video.js": "8.11.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "1.6.0",
     "@jihchi/vite-plugin-rescript": "5.5.0",
     "@rescript/core": "1.1.0",
     "@rescript/react": "0.12.1",
-    "@types/node": "20.11.23",
+    "@types/node": "20.11.25",
     "lightningcss": "1.24.0",
-    "react-devtools": "5.0.0",
+    "react-devtools": "5.0.2",
     "rescript": "11.0.1",
-    "vite": "5.1.4",
+    "vite": "5.1.5",
     "vite-plugin-ejs": "1.7.0"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.1"
 }
