@@ -15,17 +15,17 @@
     "modern-css-reset": "1.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "video.js": "8.11.7"
+    "video.js": "8.11.8"
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.1",
     "@jihchi/vite-plugin-rescript": "5.5.0",
     "@rescript/core": "1.1.0",
     "@rescript/react": "0.12.1",
-    "@types/node": "20.11.26",
-    "lightningcss": "1.24.0",
+    "@types/node": "20.11.28",
+    "lightningcss": "1.24.1",
     "react-devtools": "5.0.2",
-    "rescript": "11.0.1",
+    "rescript": "11.1.0-rc.4",
     "vite": "5.1.6",
     "vite-plugin-ejs": "1.7.0"
   },
