@@ -2673,7 +2673,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     rescript: "npm:11.1.0-rc.5"
     video.js: "npm:8.11.8"
-    vite: "npm:5.2.3"
+    vite: "npm:5.2.5"
     vite-plugin-ejs: "npm:1.7.0"
   languageName: unknown
   linkType: soft
@@ -3265,9 +3265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.2.3":
-  version: 5.2.3
-  resolution: "vite@npm:5.2.3"
+"vite@npm:5.2.5":
+  version: 5.2.5
+  resolution: "vite@npm:5.2.5"
   dependencies:
     esbuild: "npm:^0.20.1"
     fsevents: "npm:~2.3.3"
@@ -3301,7 +3301,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/6cd235a4fdb41da87cc6e9734c91935751fe6eae1f797a68c5f8772be7e99cc1fd596c783255c168c2aa6fb3ce4f520b2b246713b91e7b0642a976ba29b89c07
+  checksum: 10c0/07d93b7d51e495e5ba2dfb20fb7ff2a1902f971568a44b5ae73a7c71c23992f79336c623b1b18735d39406edaecd8731debaa615a3b7713b7c2b0b50b4f8b393
   languageName: node
   linkType: hard
 
