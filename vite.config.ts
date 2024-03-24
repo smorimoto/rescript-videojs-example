@@ -31,6 +31,7 @@ export default defineConfig({
         },
       },
     },
+    target: "esnext",
   },
   css: {
     transformer: "lightningcss",
