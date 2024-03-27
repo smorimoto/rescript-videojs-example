@@ -19,15 +19,15 @@
     "video.js": "8.11.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.2",
+    "@biomejs/biome": "1.6.3",
     "@jihchi/vite-plugin-rescript": "5.5.0",
     "@rescript/core": "1.1.0",
     "@rescript/react": "0.12.1",
     "@types/node": "20.11.30",
     "lightningcss": "1.24.1",
     "react-devtools": "5.0.2",
-    "rescript": "11.1.0-rc.5",
-    "vite": "5.2.5",
+    "rescript": "11.1.0-rc.6",
+    "vite": "5.2.6",
     "vite-plugin-ejs": "1.7.0"
   },
   "packageManager": "yarn@4.1.1"
