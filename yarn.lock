@@ -342,12 +342,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/core@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@rescript/core@npm:1.1.0"
+"@rescript/core@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@rescript/core@npm:1.2.0"
   peerDependencies:
     rescript: ">=11.0.0 || ^11.1.0-rc.2"
-  checksum: 10c0/439e4e1f35db2d5e39de1a29b98234d84f285307ed5dd5e6db682b5ede24dd8020b207620b6063d78d7818258d7ac4b29370fbcf38604b26453f9781155bf504
+  checksum: 10c0/248fac1d162cf4bda17d0a8fea1b0bd6007a9816bc748e8491813a84df6e9f9ab64b11a78756f2dec3c0613cc8482ca190660ed3f0bc23a8d8465b8f2b529a1c
   languageName: node
   linkType: hard
 
@@ -2670,7 +2670,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.6.4"
     "@jihchi/vite-plugin-rescript": "npm:5.5.0"
-    "@rescript/core": "npm:1.1.0"
+    "@rescript/core": "npm:1.2.0"
     "@rescript/react": "npm:0.12.1"
     "@types/node": "npm:20.11.30"
     lightningcss: "npm:1.24.1"
