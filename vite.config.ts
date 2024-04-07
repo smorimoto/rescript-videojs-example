@@ -36,7 +36,7 @@ export default defineConfig({
   css: {
     transformer: "lightningcss",
   },
-  plugins: [rescript(), ViteEjsPlugin()],
+  plugins: [rescript({ silent: true }), ViteEjsPlugin()],
   server: {
     port: 3000,
   },
