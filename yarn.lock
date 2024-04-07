@@ -299,17 +299,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jihchi/vite-plugin-rescript@npm:5.6.1":
-  version: 5.6.1
-  resolution: "@jihchi/vite-plugin-rescript@npm:5.6.1"
+"@jihchi/vite-plugin-rescript@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@jihchi/vite-plugin-rescript@npm:6.0.0"
   dependencies:
     chalk: "npm:^5.3.0"
     execa: "npm:^8.0.1"
     npm-run-path: "npm:^5.3.0"
   peerDependencies:
     rescript: ">=9"
-    vite: ">=3"
-  checksum: 10c0/529b6716ab63c7309452487fa1f0abb2869daaa89b1ecb4928faeb6c78d612103ca4d45ef6bcb6b6aec77dd445683abf3187e141920d62059691d09df5265f04
+    vite: ">=5.1.0"
+  checksum: 10c0/c2bfe4fb6a30b6d2b36bc0a7d6de53f62ae244cc51875d43595ed974696cecf596fb63b8e733886d8a60d1f52cc1aedcc64c493541bdec093bb2e77ff73313b0
   languageName: node
   linkType: hard
 
@@ -2690,7 +2690,7 @@ __metadata:
   resolution: "rescript-videojs-example@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.6.4"
-    "@jihchi/vite-plugin-rescript": "npm:5.6.1"
+    "@jihchi/vite-plugin-rescript": "npm:6.0.0"
     "@rescript/core": "npm:1.2.0"
     "@rescript/react": "npm:0.12.1"
     "@types/node": "npm:20.12.5"
