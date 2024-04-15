@@ -2612,29 +2612,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-devtools-core@npm:5.0.2":
-  version: 5.0.2
-  resolution: "react-devtools-core@npm:5.0.2"
+"react-devtools-core@npm:5.1.0":
+  version: 5.1.0
+  resolution: "react-devtools-core@npm:5.1.0"
   dependencies:
     shell-quote: "npm:^1.6.1"
     ws: "npm:^7"
-  checksum: 10c0/24ce0fba2fb6b9a81d59ccf0ee1cab2609fd6b5f8e372ee13ef373eaa432c02a9d9d6c9382e155af1f619692d450c8665d75ebd35f44c0157f52463b9ee35539
+  checksum: 10c0/b29dde46decd46fc6316520e14683019604af1f58d377b406eeae343a2306038aec6ae2a40d0ee19c3530eb48561c577c78004909a0de0fc8fd983c4cd33ea98
   languageName: node
   linkType: hard
 
-"react-devtools@npm:5.0.2":
-  version: 5.0.2
-  resolution: "react-devtools@npm:5.0.2"
+"react-devtools@npm:5.1.0":
+  version: 5.1.0
+  resolution: "react-devtools@npm:5.1.0"
   dependencies:
     cross-spawn: "npm:^5.0.1"
     electron: "npm:^23.1.2"
     ip: "npm:^1.1.4"
     minimist: "npm:^1.2.3"
-    react-devtools-core: "npm:5.0.2"
+    react-devtools-core: "npm:5.1.0"
     update-notifier: "npm:^2.1.0"
   bin:
     react-devtools: bin.js
-  checksum: 10c0/6d6003c76e5c9b26adc3619c462813a6e0e83f2f312118adfcf841a693e198adb20ef1ab4fc16660e63557f0c20eeb6acb357c63b9fe8281a1b925901f6b39eb
+  checksum: 10c0/e33a30009b163e46da60495dc2b550519043743dfc52e287dbeaac5435e28806fcf91d996687ecc1e28c0a9a8919f5aa06777ab82efe5b36180969c7654a11a6
   languageName: node
   linkType: hard
 
@@ -2697,7 +2697,7 @@ __metadata:
     lightningcss: "npm:1.24.1"
     modern-css-reset: "npm:1.4.0"
     react: "npm:18.2.0"
-    react-devtools: "npm:5.0.2"
+    react-devtools: "npm:5.1.0"
     react-dom: "npm:18.2.0"
     rescript: "npm:11.1.0-rc.7"
     video.js: "npm:8.11.8"
