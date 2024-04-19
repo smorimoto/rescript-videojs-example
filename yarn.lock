@@ -2699,21 +2699,21 @@ __metadata:
     react: "npm:18.2.0"
     react-devtools: "npm:5.1.0"
     react-dom: "npm:18.2.0"
-    rescript: "npm:11.1.0-rc.8"
+    rescript: "npm:11.1.0"
     video.js: "npm:8.12.0"
     vite: "npm:5.2.9"
     vite-plugin-ejs: "npm:1.7.0"
   languageName: unknown
   linkType: soft
 
-"rescript@npm:11.1.0-rc.8":
-  version: 11.1.0-rc.8
-  resolution: "rescript@npm:11.1.0-rc.8"
+"rescript@npm:11.1.0":
+  version: 11.1.0
+  resolution: "rescript@npm:11.1.0"
   bin:
     bsc: bsc
     bstracing: lib/bstracing
     rescript: rescript
-  checksum: 10c0/b744d8475d1b94ed176f70ae5b6146dd13aa0af789a12a147be9019f0cfe82be27d96fc329599ce932af061f3adaf4d887acb30c89bb68ebcbb52167e337909c
+  checksum: 10c0/3716a1bf23cd6b47e0a2dea4099a596f8b9a16eee7b57b0bf444c201d2a9b944fa083fbe22078f47798c4d5074167859ce064371fcd5ddf347e7577c146df8e1
   languageName: node
   linkType: hard
 
