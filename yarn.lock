@@ -558,9 +558,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@videojs/http-streaming@npm:3.12.1":
-  version: 3.12.1
-  resolution: "@videojs/http-streaming@npm:3.12.1"
+"@videojs/http-streaming@npm:3.12.2":
+  version: 3.12.2
+  resolution: "@videojs/http-streaming@npm:3.12.2"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@videojs/vhs-utils": "npm:4.0.0"
@@ -572,7 +572,7 @@ __metadata:
     video.js: "npm:^7 || ^8"
   peerDependencies:
     video.js: ^8.11.0
-  checksum: 10c0/d0682da009253a178511e631307ebcedd085c5b5d85eee1bcf6c2201ffe677d7f21b15157ca0b1f136a98564079517e293bc357ee43f9a3b0de927322ab71808
+  checksum: 10c0/125bdf5c734744210338fd001a70f85dacbd8adc01b055a47da5f7401f6842a8f700502c9805ce11e9ce7e57c75b61f6a21b8330b7fab7032427f578c8fa82db
   languageName: node
   linkType: hard
 
@@ -2707,7 +2707,7 @@ __metadata:
     react-devtools: "npm:5.1.0"
     react-dom: "npm:18.2.0"
     rescript: "npm:11.1.0"
-    video.js: "npm:8.12.0"
+    video.js: "npm:8.13.0"
     vite: "npm:5.2.10"
     vite-plugin-ejs: "npm:1.7.0"
   languageName: unknown
@@ -3249,12 +3249,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.12.0, video.js@npm:^7 || ^8":
-  version: 8.12.0
-  resolution: "video.js@npm:8.12.0"
+"video.js@npm:8.13.0, video.js@npm:^7 || ^8":
+  version: 8.13.0
+  resolution: "video.js@npm:8.13.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
-    "@videojs/http-streaming": "npm:3.12.1"
+    "@videojs/http-streaming": "npm:3.12.2"
     "@videojs/vhs-utils": "npm:^4.0.0"
     "@videojs/xhr": "npm:2.6.0"
     aes-decrypter: "npm:^4.0.1"
@@ -3267,7 +3267,7 @@ __metadata:
     videojs-contrib-quality-levels: "npm:4.1.0"
     videojs-font: "npm:4.1.0"
     videojs-vtt.js: "npm:0.15.5"
-  checksum: 10c0/2732d591dc21b994ae42adc1693dfac1b6ec312e1e1e0927344ed5a12d77669e7ef0392496ca18737512152ca11ce43ee981296e558d82a98963265ea4011643
+  checksum: 10c0/73e1503f3d3a053c9619af5edbed695c25514b18781f0c9ce2544941634c1a198d6b7b3ff279a2069e9b0ba1a5f0bc3b517764e0e1c08beb1c272ede18aa02a7
   languageName: node
   linkType: hard
 
