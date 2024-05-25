@@ -1928,83 +1928,83 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lightningcss-darwin-arm64@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-darwin-arm64@npm:1.25.0"
+"lightningcss-darwin-arm64@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-darwin-arm64@npm:1.25.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"lightningcss-darwin-x64@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-darwin-x64@npm:1.25.0"
+"lightningcss-darwin-x64@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-darwin-x64@npm:1.25.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"lightningcss-freebsd-x64@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-freebsd-x64@npm:1.25.0"
+"lightningcss-freebsd-x64@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-freebsd-x64@npm:1.25.1"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lightningcss-linux-arm-gnueabihf@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-linux-arm-gnueabihf@npm:1.25.0"
+"lightningcss-linux-arm-gnueabihf@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-linux-arm-gnueabihf@npm:1.25.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"lightningcss-linux-arm64-gnu@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-linux-arm64-gnu@npm:1.25.0"
+"lightningcss-linux-arm64-gnu@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-linux-arm64-gnu@npm:1.25.1"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"lightningcss-linux-arm64-musl@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-linux-arm64-musl@npm:1.25.0"
+"lightningcss-linux-arm64-musl@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-linux-arm64-musl@npm:1.25.1"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"lightningcss-linux-x64-gnu@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-linux-x64-gnu@npm:1.25.0"
+"lightningcss-linux-x64-gnu@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-linux-x64-gnu@npm:1.25.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"lightningcss-linux-x64-musl@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-linux-x64-musl@npm:1.25.0"
+"lightningcss-linux-x64-musl@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-linux-x64-musl@npm:1.25.1"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"lightningcss-win32-x64-msvc@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss-win32-x64-msvc@npm:1.25.0"
+"lightningcss-win32-x64-msvc@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss-win32-x64-msvc@npm:1.25.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"lightningcss@npm:1.25.0":
-  version: 1.25.0
-  resolution: "lightningcss@npm:1.25.0"
+"lightningcss@npm:1.25.1":
+  version: 1.25.1
+  resolution: "lightningcss@npm:1.25.1"
   dependencies:
     detect-libc: "npm:^1.0.3"
-    lightningcss-darwin-arm64: "npm:1.25.0"
-    lightningcss-darwin-x64: "npm:1.25.0"
-    lightningcss-freebsd-x64: "npm:1.25.0"
-    lightningcss-linux-arm-gnueabihf: "npm:1.25.0"
-    lightningcss-linux-arm64-gnu: "npm:1.25.0"
-    lightningcss-linux-arm64-musl: "npm:1.25.0"
-    lightningcss-linux-x64-gnu: "npm:1.25.0"
-    lightningcss-linux-x64-musl: "npm:1.25.0"
-    lightningcss-win32-x64-msvc: "npm:1.25.0"
+    lightningcss-darwin-arm64: "npm:1.25.1"
+    lightningcss-darwin-x64: "npm:1.25.1"
+    lightningcss-freebsd-x64: "npm:1.25.1"
+    lightningcss-linux-arm-gnueabihf: "npm:1.25.1"
+    lightningcss-linux-arm64-gnu: "npm:1.25.1"
+    lightningcss-linux-arm64-musl: "npm:1.25.1"
+    lightningcss-linux-x64-gnu: "npm:1.25.1"
+    lightningcss-linux-x64-musl: "npm:1.25.1"
+    lightningcss-win32-x64-msvc: "npm:1.25.1"
   dependenciesMeta:
     lightningcss-darwin-arm64:
       optional: true
@@ -2024,7 +2024,7 @@ __metadata:
       optional: true
     lightningcss-win32-x64-msvc:
       optional: true
-  checksum: 10c0/ff1c3a4ff0bd04e4470f258d184838e05cf6c5312cd6de1b7792eb8fe619c8a51a9b4ed3bf28c3c97bd8f9c53c0dda2035f8b00a43da30f52040204d82c87537
+  checksum: 10c0/143a412dfd3393804c9dedac4294d7d54752dd589eb9ba43e3548bd6b0f9d73765b2b4cc0c62fae767c96d5d532a64d7fdfabd8b299caf733160a751cbb28297
   languageName: node
   linkType: hard
 
@@ -2701,7 +2701,7 @@ __metadata:
     "@rescript/core": "npm:1.3.0"
     "@rescript/react": "npm:0.12.1"
     "@types/node": "npm:20.12.12"
-    lightningcss: "npm:1.25.0"
+    lightningcss: "npm:1.25.1"
     modern-css-reset: "npm:1.4.0"
     react: "npm:18.3.1"
     react-devtools: "npm:5.2.0"
