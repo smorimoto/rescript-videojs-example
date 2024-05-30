@@ -16,7 +16,7 @@
     "modern-css-reset": "1.4.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "video.js": "8.14.0"
+    "video.js": "8.14.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
