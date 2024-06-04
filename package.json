@@ -6,11 +6,10 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "visualize-bundle": "vite-bundle-visualizer",
     "build": "rescript clean && vite build",
     "ci": "biome ci .",
     "dev": "vite & react-devtools",
-    "format": "biome format --write . && rescript format -all"
+    "format": "biome format --write . & rescript format -all"
   },
   "dependencies": {
     "modern-css-reset": "1.4.0",
