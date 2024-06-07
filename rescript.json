@@ -8,7 +8,7 @@
   },
   "package-specs": {
     "in-source": true,
-    "module": "es6"
+    "module": "esmodule"
   },
   "sources": {
     "dir": "src",
