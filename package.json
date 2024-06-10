@@ -29,5 +29,5 @@
     "vite": "5.2.13",
     "vite-plugin-ejs": "1.7.0"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.3.0"
 }
