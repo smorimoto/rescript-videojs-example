@@ -18,7 +18,7 @@
     "video.js": "8.16.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.2",
+    "@biomejs/biome": "1.8.3",
     "@jihchi/vite-plugin-rescript": "6.0.0",
     "@rescript/core": "1.5.0",
     "@rescript/react": "0.12.2",
