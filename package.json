@@ -24,7 +24,7 @@
     "@rescript/react": "0.12.2",
     "@types/node": "20.14.9",
     "lightningcss": "1.25.1",
-    "react-devtools": "5.3.0",
+    "react-devtools": "5.3.1",
     "rescript": "11.1.2",
     "vite": "5.3.3",
     "vite-plugin-ejs": "1.7.0"
