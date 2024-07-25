@@ -351,13 +351,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/react@npm:0.12.2":
-  version: 0.12.2
-  resolution: "@rescript/react@npm:0.12.2"
+"@rescript/react@npm:0.13.0":
+  version: 0.13.0
+  resolution: "@rescript/react@npm:0.13.0"
   peerDependencies:
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
-  checksum: 10c0/2f38d14f8b6c1a36246b7188242bb71cefda59190e9e1f0fad839c67b99863fba5e4529ed0b2ff3beaa3be12ea021842a53b0bbd63251a387b4952504aae4751
+  checksum: 10c0/95183df1160b85ea118582d4667186b9e972fdb430897eb27cf94fe05fbf85822a07ea937423f83f7a0195313d65626e3ec20860d134b53c0a20d9b920249b1b
   languageName: node
   linkType: hard
 
@@ -2810,7 +2810,7 @@ __metadata:
     "@biomejs/biome": "npm:1.8.3"
     "@jihchi/vite-plugin-rescript": "npm:6.0.0"
     "@rescript/core": "npm:1.5.2"
-    "@rescript/react": "npm:0.12.2"
+    "@rescript/react": "npm:0.13.0"
     "@types/node": "npm:20.14.12"
     lightningcss: "npm:1.25.1"
     modern-css-reset: "npm:1.4.0"
