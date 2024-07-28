@@ -12,10 +12,13 @@ function createManualChunks(
   const ignore = new Set(["react", "react-dom", "modern-css-reset"]);
   const chunks = Object.keys(deps)
     .filter((dep) => !ignore.has(dep))
-    .reduce((acc, dep) => {
-      acc[dep] = [dep];
-      return acc;
-    }, {});
+    .reduce(
+      (acc, dep) => {
+        acc[dep] = [dep];
+        return acc;
+      },
+      {} as Record<string, string[]>,
+    );
   return chunks;
 }
 

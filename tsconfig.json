@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/strictest",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "resolveJsonModule": true
+  },
+  "exclude": ["dist", "lib"]
+}
