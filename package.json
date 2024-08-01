@@ -7,9 +7,9 @@
   "type": "module",
   "scripts": {
     "build": "rescript clean && vite build",
-    "ci": "biome ci .",
     "dev": "vite & react-devtools",
-    "format": "biome format --write . & rescript format -all"
+    "fix": "biome check --fix && rescript format -all",
+    "lint": "biome check && rescript format -all -check"
   },
   "dependencies": {
     "modern-css-reset": "1.4.0",
@@ -31,5 +31,5 @@
     "vite": "5.3.5",
     "vite-plugin-ejs": "1.7.0"
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "pnpm@9.6.0"
 }

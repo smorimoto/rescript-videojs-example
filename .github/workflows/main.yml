@@ -22,8 +22,8 @@ jobs:
 
       - run: corepack enable
 
-      - run: yarn install --immutable
+      - run: pnpm install --frozen-lockfile
 
-      - run: yarn ci
+      - run: pnpm lint
 
-      - run: yarn build
+      - run: pnpm build
