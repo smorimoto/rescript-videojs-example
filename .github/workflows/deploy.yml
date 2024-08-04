@@ -39,9 +39,9 @@ jobs:
 
       - run: corepack enable
 
-      - run: pnpm install --frozen-lockfile
+      - run: yarn install --immutable
 
-      - run: pnpm build
+      - run: yarn build
 
       - name: Set-up Pages
         uses: actions/configure-pages@v5
