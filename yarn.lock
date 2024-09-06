@@ -2865,7 +2865,7 @@ __metadata:
     react: "npm:18.3.1"
     react-devtools: "npm:5.3.1"
     react-dom: "npm:18.3.1"
-    rescript: "npm:12.0.0-alpha.1"
+    rescript: "npm:12.0.0-alpha.2"
     typescript: "npm:5.5.4"
     video.js: "npm:8.17.3"
     vite: "npm:5.4.3"
@@ -2873,15 +2873,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript@npm:12.0.0-alpha.1":
-  version: 12.0.0-alpha.1
-  resolution: "rescript@npm:12.0.0-alpha.1"
+"rescript@npm:12.0.0-alpha.2":
+  version: 12.0.0-alpha.2
+  resolution: "rescript@npm:12.0.0-alpha.2"
   bin:
     bsc: bsc
     bstracing: lib/bstracing
     rescript: rescript
-    rewatch: scripts/rewatch
-  checksum: 10c0/82c1c59004f6381fa3c6f5d17319cd9def842e9dfa23e5b9af99f820fc3fdcbb2e38a8b03753434db8a8293a1e0b125186222cfb72dde1f0933467d63d8df353
+    rewatch: cli/rewatch
+  checksum: 10c0/02689dfa3545f31ffe24e53f30ec215475fa05de70337a264ddedd0698b316cf2b29e5dad6966a5494a70568e0ed21f69962f185d987ec334e973bc4fd9b8cdf
   languageName: node
   linkType: hard
 
