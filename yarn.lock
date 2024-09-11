@@ -565,24 +565,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@videojs/http-streaming@npm:3.13.2":
-  version: 3.13.2
-  resolution: "@videojs/http-streaming@npm:3.13.2"
-  dependencies:
-    "@babel/runtime": "npm:^7.12.5"
-    "@videojs/vhs-utils": "npm:4.0.0"
-    aes-decrypter: "npm:4.0.1"
-    global: "npm:^4.4.0"
-    m3u8-parser: "npm:^7.1.0"
-    mpd-parser: "npm:^1.3.0"
-    mux.js: "npm:7.0.3"
-    video.js: "npm:^7 || ^8"
-  peerDependencies:
-    video.js: ^8.14.0
-  checksum: 10c0/65352ac785c588ffa2eda3aff970f1ee17f28eed294ef2b0470d1d9265bda25efa00ac21065ef41ebbeec65c72a063bed40d1c1af037add14459a1d54400c9aa
-  languageName: node
-  linkType: hard
-
 "@videojs/http-streaming@npm:3.13.3":
   version: 3.13.3
   resolution: "@videojs/http-streaming@npm:3.13.3"
@@ -1768,13 +1750,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"individual@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "individual@npm:2.0.0"
-  checksum: 10c0/3911c551aca40538801c1f1fb48945878193a7248ae4c9caf95e8349872efd981db048d5dd66daf42bdd1cad948f3d45b7cf4f6839413787e7436cfa2eaa892e
-  languageName: node
-  linkType: hard
-
 "ini@npm:^1.3.4, ini@npm:~1.3.0":
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
@@ -2867,7 +2842,7 @@ __metadata:
     react-dom: "npm:18.3.1"
     rescript: "npm:12.0.0-alpha.3"
     typescript: "npm:5.6.2"
-    video.js: "npm:8.17.3"
+    video.js: "npm:8.17.4"
     vite: "npm:5.4.4"
     vite-plugin-ejs: "npm:1.7.0"
   languageName: unknown
@@ -2985,28 +2960,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rust-result@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "rust-result@npm:1.0.0"
-  dependencies:
-    individual: "npm:^2.0.0"
-  checksum: 10c0/b319591a9e0fd4bc2586066a87cd965481e70afeec9674654029ec7c0c10bb66effa0a9f6d17a890c1d151ec8a458203d20a766b91988a480dad545573ff11b2
-  languageName: node
-  linkType: hard
-
 "safe-buffer@npm:^5.0.1":
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
   checksum: 10c0/6501914237c0a86e9675d4e51d89ca3c21ffd6a31642efeba25ad65720bce6921c9e7e974e5be91a786b25aa058b5303285d3c15dbabf983a919f5f630d349f3
-  languageName: node
-  linkType: hard
-
-"safe-json-parse@npm:4.0.0":
-  version: 4.0.0
-  resolution: "safe-json-parse@npm:4.0.0"
-  dependencies:
-    rust-result: "npm:^1.0.0"
-  checksum: 10c0/f4ae4458ec5d7822a7740d43df396bc6148115c34d3dd882ccd153e006b13b7ee0548027c47ffbeb0d31ffcae7a8935d30e402f4b17b9e7eb5fdadbdc2d789b8
   languageName: node
   linkType: hard
 
@@ -3435,28 +3392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.17.3":
-  version: 8.17.3
-  resolution: "video.js@npm:8.17.3"
-  dependencies:
-    "@babel/runtime": "npm:^7.12.5"
-    "@videojs/http-streaming": "npm:3.13.2"
-    "@videojs/vhs-utils": "npm:^4.0.0"
-    "@videojs/xhr": "npm:2.7.0"
-    aes-decrypter: "npm:^4.0.1"
-    global: "npm:4.4.0"
-    m3u8-parser: "npm:^7.1.0"
-    mpd-parser: "npm:^1.2.2"
-    mux.js: "npm:^7.0.1"
-    safe-json-parse: "npm:4.0.0"
-    videojs-contrib-quality-levels: "npm:4.1.0"
-    videojs-font: "npm:4.2.0"
-    videojs-vtt.js: "npm:0.15.5"
-  checksum: 10c0/47b492e2d52c72f73590fab1f1884f70249774ce353c632b80a2660e6fc3e02a86569e1ff8da8d6d12e253ed3265f9b2a40f4c222cad24b5398f28202ad22c3d
-  languageName: node
-  linkType: hard
-
-"video.js@npm:^7 || ^8":
+"video.js@npm:8.17.4, video.js@npm:^7 || ^8":
   version: 8.17.4
   resolution: "video.js@npm:8.17.4"
   dependencies:
