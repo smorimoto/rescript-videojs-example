@@ -342,12 +342,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/core@npm:1.5.2":
-  version: 1.5.2
-  resolution: "@rescript/core@npm:1.5.2"
+"@rescript/core@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@rescript/core@npm:1.6.0"
   peerDependencies:
-    rescript: ^11.1.0-rc.7
-  checksum: 10c0/0745586f33b13b1dc5512fc1d3bb596794c82622d28a7775b4f9329772e2ca355dd44d44082e1a6eb8db4dbb8d54c4271e2df3f4b2b845d89c00b590297e6837
+    rescript: ">=11.1.0"
+  checksum: 10c0/7f74f1cf2acde896eaf4eb64e6e4ea631d3cc9ab7dec5bba0d921752d7b8fa874b8831844a305577449b5455dcef21c8f0abc945761ca8c864df64442f750571
   languageName: node
   linkType: hard
 
@@ -2856,7 +2856,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.8.3"
     "@jihchi/vite-plugin-rescript": "npm:6.0.0"
-    "@rescript/core": "npm:1.5.2"
+    "@rescript/core": "npm:1.6.0"
     "@rescript/react": "npm:0.13.0"
     "@tsconfig/strictest": "npm:2.0.5"
     "@types/node": "npm:22.5.4"
