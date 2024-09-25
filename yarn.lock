@@ -531,12 +531,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.7.0":
-  version: 22.7.0
-  resolution: "@types/node@npm:22.7.0"
+"@types/node@npm:*, @types/node@npm:22.7.1":
+  version: 22.7.1
+  resolution: "@types/node@npm:22.7.1"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/127b1ac3eebe8c2b09e3d2de277ee906710c4908b4573cde23b9c7cec1cb1aaf1af8bdabbccdac08d005f820b770e7447b22c8eb56ca63344f4d2e26bcdc29fb
+  checksum: 10c0/5647181455d543992f5e93165e7ad2ca0e97402e748a1209c07135320b6f220ffb5b2531b0412d6d33bb3173b5bcd9418899d9fa6f04596a5ec9f338b2f37992
   languageName: node
   linkType: hard
 
@@ -2852,7 +2852,7 @@ __metadata:
     "@rescript/core": "npm:1.6.0"
     "@rescript/react": "npm:0.13.0"
     "@tsconfig/strictest": "npm:2.0.5"
-    "@types/node": "npm:22.7.0"
+    "@types/node": "npm:22.7.1"
     lightningcss: "npm:1.27.0"
     modern-css-reset: "npm:1.4.0"
     react: "npm:18.3.1"
