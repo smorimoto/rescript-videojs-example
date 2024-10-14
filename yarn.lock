@@ -2374,7 +2374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mux.js@npm:7.0.3, mux.js@npm:^7.0.1":
+"mux.js@npm:7.0.3":
   version: 7.0.3
   resolution: "mux.js@npm:7.0.3"
   dependencies:
@@ -2383,6 +2383,18 @@ __metadata:
   bin:
     muxjs-transmux: bin/transmux.js
   checksum: 10c0/a5ce73408f4bac1c4d115434c68025c25d46cc17ae6054801ff944a37d427c7f4aab235794231d2b24183e47a5bc34314bc65ff8b6e8910ee52bf75158a0d1e9
+  languageName: node
+  linkType: hard
+
+"mux.js@npm:^7.0.1":
+  version: 7.1.0
+  resolution: "mux.js@npm:7.1.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.11.2"
+    global: "npm:^4.4.0"
+  bin:
+    muxjs-transmux: bin/transmux.js
+  checksum: 10c0/7e57de7087511ab8c0e8dae2ce0221c9f8e2dc53d484635a588ba1e6ed3638c4a8bf10f06b8a517bd8ebab25b303bc3069d3277f31387f7822418a162bbceb6a
   languageName: node
   linkType: hard
 
