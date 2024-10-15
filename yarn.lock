@@ -2730,29 +2730,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-devtools-core@npm:6.0.0":
-  version: 6.0.0
-  resolution: "react-devtools-core@npm:6.0.0"
+"react-devtools-core@npm:6.0.1":
+  version: 6.0.1
+  resolution: "react-devtools-core@npm:6.0.1"
   dependencies:
     shell-quote: "npm:^1.6.1"
     ws: "npm:^7"
-  checksum: 10c0/a1926c70e1e71de0ab6bd0b01e6d748b1cab4ec053020844a77743ab87f6fa440a2aeee97ec984b7ab60409c7137fb328cf9d51fd3b52225308eb239a2a21359
+  checksum: 10c0/ec9311a2010262e60e423ef9a4ad01da1bee1d8f27bb4f233acc82ce029e3330b8c41cdc96d3b0e362ea47a31ce9e053af155b7f19ec8b70cf60c6e894443a94
   languageName: node
   linkType: hard
 
-"react-devtools@npm:6.0.0":
-  version: 6.0.0
-  resolution: "react-devtools@npm:6.0.0"
+"react-devtools@npm:6.0.1":
+  version: 6.0.1
+  resolution: "react-devtools@npm:6.0.1"
   dependencies:
     cross-spawn: "npm:^5.0.1"
     electron: "npm:^23.1.2"
     internal-ip: "npm:^6.2.0"
     minimist: "npm:^1.2.3"
-    react-devtools-core: "npm:6.0.0"
+    react-devtools-core: "npm:6.0.1"
     update-notifier: "npm:^2.1.0"
   bin:
     react-devtools: bin.js
-  checksum: 10c0/4d86f0a33829760240031eac6bb52a31cb5ce8d9e7000c10e80e07ae4179d8f9a14f17a62e9faf79393a2606da777606d69f4a79541d1b14b94ac2fa0ac4adae
+  checksum: 10c0/96c18d083dab7808bda4e2df14b64555a08f69ab6f40c7b07312ff28d03dc1fcbeb33e11a28a5de1659581956d7a313a7ad104ea5b78864d751a1649cb77fb59
   languageName: node
   linkType: hard
 
@@ -2816,7 +2816,7 @@ __metadata:
     lightningcss: "npm:1.27.0"
     modern-css-reset: "npm:1.4.0"
     react: "npm:18.3.1"
-    react-devtools: "npm:6.0.0"
+    react-devtools: "npm:6.0.1"
     react-dom: "npm:18.3.1"
     rescript: "npm:12.0.0-alpha.3"
     typescript: "npm:5.6.3"
