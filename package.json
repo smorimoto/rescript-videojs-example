@@ -20,7 +20,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.3",
     "@jihchi/vite-plugin-rescript": "6.0.0",
-    "@rescript/core": "1.6.0",
+    "@rescript/core": "1.6.1",
     "@rescript/react": "0.13.0",
     "@tsconfig/strictest": "2.0.5",
     "@types/node": "22.7.5",
