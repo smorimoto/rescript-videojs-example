@@ -4,7 +4,6 @@
     "config:recommended",
     ":disableRateLimiting",
     ":maintainLockFilesWeekly",
-    ":pinVersions",
     ":semanticCommitsDisabled"
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
