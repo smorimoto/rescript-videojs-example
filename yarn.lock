@@ -541,9 +541,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^16.11.26":
-  version: 16.18.113
-  resolution: "@types/node@npm:16.18.113"
-  checksum: 10c0/7fe18573b0a03ce8e721849fd2294cd54df2a9d7aff865640d776e5db176474f42c1200fa9a10a825947c64efc4d749958b76cc25774093c6e761aba44071a6b
+  version: 16.18.114
+  resolution: "@types/node@npm:16.18.114"
+  checksum: 10c0/38391d08cd795857a664c8c26e0c722d386255e5d19770faec9a9b475c27b5502aee8ba5b159052c840a6bff715ac27e7329ba4df360e56cf0354137024f1f1d
   languageName: node
   linkType: hard
 
@@ -2408,9 +2408,9 @@ __metadata:
   linkType: hard
 
 "negotiator@npm:^0.6.3":
-  version: 0.6.3
-  resolution: "negotiator@npm:0.6.3"
-  checksum: 10c0/3ec9fd413e7bf071c937ae60d572bc67155262068ed522cf4b3be5edbe6ddf67d095ec03a3a14ebf8fc8e95f8e1d61be4869db0dbb0de696f6b837358bd43fc2
+  version: 0.6.4
+  resolution: "negotiator@npm:0.6.4"
+  checksum: 10c0/3e677139c7fb7628a6f36335bf11a885a62c21d5390204590a1a214a5631fcbe5ea74ef6a610b60afe84b4d975cbe0566a23f20ee17c77c73e74b80032108dea
   languageName: node
   linkType: hard
 
@@ -2619,9 +2619,9 @@ __metadata:
   linkType: hard
 
 "picocolors@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "picocolors@npm:1.1.0"
-  checksum: 10c0/86946f6032148801ef09c051c6fb13b5cf942eaf147e30ea79edb91dd32d700934edebe782a1078ff859fb2b816792e97ef4dab03d7f0b804f6b01a0df35e023
+  version: 1.1.1
+  resolution: "picocolors@npm:1.1.1"
+  checksum: 10c0/e2e3e8170ab9d7c7421969adaa7e1b31434f789afb9b3f115f6b96d91945041ac3ceb02e9ec6fe6510ff036bcc0bf91e69a1772edc0b707e12b19c0f2d6bcf58
   languageName: node
   linkType: hard
 
