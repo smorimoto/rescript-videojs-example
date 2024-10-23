@@ -342,15 +342,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/core@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@rescript/core@npm:1.6.1"
-  peerDependencies:
-    rescript: ">=11.1.0"
-  checksum: 10c0/04e7fc14dc050de0a9da8eb0642fb0800bc80c8978ef79aada1823bc2080b47a4d40c1168c63b53642009935342a4feb833fc190a71aa45e83af5d896269b95d
-  languageName: node
-  linkType: hard
-
 "@rescript/react@npm:0.13.0":
   version: 0.13.0
   resolution: "@rescript/react@npm:0.13.0"
@@ -2809,7 +2800,6 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
     "@jihchi/vite-plugin-rescript": "npm:6.0.0"
-    "@rescript/core": "npm:1.6.1"
     "@rescript/react": "npm:0.13.0"
     "@tsconfig/strictest": "npm:2.0.5"
     "@types/node": "npm:22.7.9"

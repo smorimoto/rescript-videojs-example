@@ -1,7 +1,6 @@
 {
   "name": "rescript-videojs-example",
-  "bs-dependencies": ["@rescript/core", "@rescript/react"],
-  "bsc-flags": ["-open RescriptCore"],
+  "bs-dependencies": ["@rescript/react"],
   "jsx": {
     "mode": "automatic",
     "version": 4
