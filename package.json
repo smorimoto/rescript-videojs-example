@@ -12,13 +12,13 @@
     "lint": "biome check && rescript format -all -check"
   },
   "resolutions": {
-    "video.js": "8.19.2"
+    "video.js": "8.20.0"
   },
   "dependencies": {
     "modern-css-reset": "1.4.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "video.js": "8.19.2"
+    "video.js": "8.20.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
