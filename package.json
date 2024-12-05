@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "rescript clean && vite build",
-    "dev": "vite & react-devtools",
+    "dev": "vite",
     "fix": "biome check --fix && rescript format -all",
     "lint": "biome check && rescript format -all -check"
   },
@@ -27,11 +27,9 @@
     "@tsconfig/strictest": "2.0.5",
     "@types/node": "22.10.1",
     "lightningcss": "1.28.2",
-    "react-devtools": "6.0.1",
     "rescript": "12.0.0-alpha.5",
     "typescript": "5.7.2",
-    "vite": "6.0.3",
-    "vite-plugin-ejs": "1.7.0"
+    "vite": "6.0.3"
   },
   "packageManager": "yarn@4.5.3"
 }
