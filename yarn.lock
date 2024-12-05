@@ -498,7 +498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@videojs/http-streaming@npm:^3.16.0":
+"@videojs/http-streaming@npm:^3.16.2":
   version: 3.16.2
   resolution: "@videojs/http-streaming@npm:3.16.2"
   dependencies:
@@ -1552,7 +1552,7 @@ __metadata:
     react-dom: "npm:19.0.0"
     rescript: "npm:12.0.0-alpha.5"
     typescript: "npm:5.7.2"
-    video.js: "npm:8.20.0"
+    video.js: "npm:8.21.0"
     vite: "npm:6.0.3"
   languageName: unknown
   linkType: soft
@@ -1860,12 +1860,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.20.0":
-  version: 8.20.0
-  resolution: "video.js@npm:8.20.0"
+"video.js@npm:8.21.0":
+  version: 8.21.0
+  resolution: "video.js@npm:8.21.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
-    "@videojs/http-streaming": "npm:^3.16.0"
+    "@videojs/http-streaming": "npm:^3.16.2"
     "@videojs/vhs-utils": "npm:^4.1.1"
     "@videojs/xhr": "npm:2.7.0"
     aes-decrypter: "npm:^4.0.2"
@@ -1876,7 +1876,7 @@ __metadata:
     videojs-contrib-quality-levels: "npm:4.1.0"
     videojs-font: "npm:4.2.0"
     videojs-vtt.js: "npm:0.15.5"
-  checksum: 10c0/9c834dddba40de19fdc270754ee2b4a861f295037ce85990ffac4bda27e22b3190face793b2c2ced78a9c69a54c742a48c1a30a247e46d1d2a3bafecd017ddfb
+  checksum: 10c0/25a3625548a97358ae75adab2f20a62a27ef6a789b1003ac70096ecc324b979339b1af61599a7a77e64602748e3fc4cfad8f8313db1f8bb4bd016533f50874de
   languageName: node
   linkType: hard
 
