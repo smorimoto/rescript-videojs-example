@@ -1555,23 +1555,23 @@ __metadata:
     modern-css-reset: "npm:1.4.0"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
-    rescript: "npm:12.0.0-alpha.5"
+    rescript: "npm:12.0.0-alpha.6"
     typescript: "npm:5.7.2"
     video.js: "npm:8.21.0"
     vite: "npm:6.0.5"
   languageName: unknown
   linkType: soft
 
-"rescript@npm:12.0.0-alpha.5":
-  version: 12.0.0-alpha.5
-  resolution: "rescript@npm:12.0.0-alpha.5"
+"rescript@npm:12.0.0-alpha.6":
+  version: 12.0.0-alpha.6
+  resolution: "rescript@npm:12.0.0-alpha.6"
   bin:
     bsc: cli/bsc
     bstracing: lib/bstracing
     rescript: cli/rescript
     rescript-tools: cli/rescript-tools
     rewatch: cli/rewatch
-  checksum: 10c0/49977ce3bf4f016e8f00fa5b769d0fff100b8a425fb2bd1a8e4cb3fc35dfd2dd7928e06e514ea53f0f44a8c1e61bf26901280719568deee96a88c964ba74bc5b
+  checksum: 10c0/5e0e50da8a858f26e4a30e9a757352adecf2f23816a757912ac6929fe1c568a201f29ba9f3b7a3f349c0d9dc57ce993435071340fe358966b2c8174d6efcf2d7
   languageName: node
   linkType: hard
 
