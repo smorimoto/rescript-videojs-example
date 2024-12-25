@@ -1557,7 +1557,7 @@ __metadata:
     react-dom: "npm:19.0.0"
     rescript: "npm:12.0.0-alpha.6"
     typescript: "npm:5.7.2"
-    video.js: "npm:8.21.0"
+    video.js: "npm:8.21.1"
     vite: "npm:6.0.5"
   languageName: unknown
   linkType: soft
@@ -1868,9 +1868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.21.0":
-  version: 8.21.0
-  resolution: "video.js@npm:8.21.0"
+"video.js@npm:8.21.1":
+  version: 8.21.1
+  resolution: "video.js@npm:8.21.1"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@videojs/http-streaming": "npm:^3.16.2"
@@ -1884,7 +1884,7 @@ __metadata:
     videojs-contrib-quality-levels: "npm:4.1.0"
     videojs-font: "npm:4.2.0"
     videojs-vtt.js: "npm:0.15.5"
-  checksum: 10c0/25a3625548a97358ae75adab2f20a62a27ef6a789b1003ac70096ecc324b979339b1af61599a7a77e64602748e3fc4cfad8f8313db1f8bb4bd016533f50874de
+  checksum: 10c0/217d9f2eb34e25ddd0031fcc610a7763f9aa5728eb14be94e44b80cb392cdc61967190530c96fb5e4d356bcb011269a21bab3c3a9df7c10de21a37d64cc6faba
   languageName: node
   linkType: hard
 
