@@ -6,6 +6,12 @@
     ":maintainLockFilesWeekly",
     ":semanticCommitsDisabled"
   ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "matchUpdateTypes": ["minor", "patch", "lockFileMaintenance"]
+    }
+  ],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "rebaseWhen": "conflicted"
 }
