@@ -1,7 +1,10 @@
 {
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "*.res": "$(capture).res.mjs"
+    "*.res": "${capture}.res.mjs"
   }
 }

@@ -13,5 +13,5 @@ let make = (~url, ~options) => {
     Some(() => video->Videojs.dispose())
   }, [url])
 
-  <video className="video-js vjs-big-play-centered" ref={ReactDOM.Ref.domRef(videoRef)} />
+  <video className="video-js" ref={ReactDOM.Ref.domRef(videoRef)} />
 }
