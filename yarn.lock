@@ -1728,7 +1728,7 @@ __metadata:
     modern-css-reset: "npm:1.4.0"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
-    rescript: "npm:12.0.0-alpha.7"
+    rescript: "npm:12.0.0-alpha.8"
     tailwindcss: "npm:4.0.1"
     typescript: "npm:5.7.3"
     video.js: "npm:8.21.1"
@@ -1736,16 +1736,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript@npm:12.0.0-alpha.7":
-  version: 12.0.0-alpha.7
-  resolution: "rescript@npm:12.0.0-alpha.7"
+"rescript@npm:12.0.0-alpha.8":
+  version: 12.0.0-alpha.8
+  resolution: "rescript@npm:12.0.0-alpha.8"
   bin:
     bsc: cli/bsc
     bstracing: lib/bstracing
     rescript: cli/rescript
     rescript-tools: cli/rescript-tools
     rewatch: cli/rewatch
-  checksum: 10c0/5d53a194d62e9edeaaf592594d6929f8a3280bd1b7194c7e04bb5e5226dcb2aa537292d9714d1cfaf017b649e52df9c12984c657fd6c85592a8b257f372a52aa
+  checksum: 10c0/2453192eb3876ba3eb0f393c25c7af7ae9d5cc1d80396e52e747adfbf86626fa99303410173a4a501dc0793b1c509cb1fa81c1eba6a7f6c2bc48bfa01c52c193
   languageName: node
   linkType: hard
 
