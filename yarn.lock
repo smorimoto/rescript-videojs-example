@@ -656,9 +656,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@videojs/http-streaming@npm:^3.16.2":
-  version: 3.16.2
-  resolution: "@videojs/http-streaming@npm:3.16.2"
+"@videojs/http-streaming@npm:^3.17.0":
+  version: 3.17.0
+  resolution: "@videojs/http-streaming@npm:3.17.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@videojs/vhs-utils": "npm:^4.1.1"
@@ -670,7 +670,7 @@ __metadata:
     video.js: "npm:^7 || ^8"
   peerDependencies:
     video.js: ^8.19.0
-  checksum: 10c0/841d7e68b918b9ed1274cf29b1bf4ebbc6427a89a9b9a4b65bb4e1493da86294a0343efb307183811f4f4f0295076b3433ab1cc04a811ed9e5690766816bb0d3
+  checksum: 10c0/aa73f8816f701d68753bc5dc97ca787018e80c6d135b229e86cb3b1c327e5b25b6bad723fa3558ef181213a8d5dd5bdb216874d306815db6eae1f6242574d4de
   languageName: node
   linkType: hard
 
@@ -1731,7 +1731,7 @@ __metadata:
     rescript: "npm:12.0.0-alpha.8"
     tailwindcss: "npm:4.0.3"
     typescript: "npm:5.7.3"
-    video.js: "npm:8.21.1"
+    video.js: "npm:8.22.0"
     vite: "npm:6.1.0"
   languageName: unknown
   linkType: soft
@@ -2056,12 +2056,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.21.1":
-  version: 8.21.1
-  resolution: "video.js@npm:8.21.1"
+"video.js@npm:8.22.0":
+  version: 8.22.0
+  resolution: "video.js@npm:8.22.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
-    "@videojs/http-streaming": "npm:^3.16.2"
+    "@videojs/http-streaming": "npm:^3.17.0"
     "@videojs/vhs-utils": "npm:^4.1.1"
     "@videojs/xhr": "npm:2.7.0"
     aes-decrypter: "npm:^4.0.2"
@@ -2072,7 +2072,7 @@ __metadata:
     videojs-contrib-quality-levels: "npm:4.1.0"
     videojs-font: "npm:4.2.0"
     videojs-vtt.js: "npm:0.15.5"
-  checksum: 10c0/217d9f2eb34e25ddd0031fcc610a7763f9aa5728eb14be94e44b80cb392cdc61967190530c96fb5e4d356bcb011269a21bab3c3a9df7c10de21a37d64cc6faba
+  checksum: 10c0/f8f6005724ff088a8c2d425bd1727930258bcd88b9963237e51a4e744a03ca5b790a6a50b421a4536e9e5d98a04b98923fa7d3ebaf9c9b77df6b1369415242fd
   languageName: node
   linkType: hard
 
