@@ -29,7 +29,7 @@
     "@types/node": "22.13.7",
     "rescript": "12.0.0-alpha.9",
     "tailwindcss": "4.0.9",
-    "typescript": "5.7.3",
+    "typescript": "5.8.2",
     "vite": "6.2.0"
   },
   "packageManager": "yarn@4.6.0"
