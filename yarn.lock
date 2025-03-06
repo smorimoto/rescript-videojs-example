@@ -2888,7 +2888,7 @@ __metadata:
     react-dom: "npm:19.0.0"
     react-scan: "npm:0.2.9"
     rescript: "npm:12.0.0-alpha.9"
-    tailwindcss: "npm:4.0.10"
+    tailwindcss: "npm:4.0.11"
     typescript: "npm:5.8.2"
     video.js: "npm:8.22.0"
     vite: "npm:6.2.0"
@@ -3162,13 +3162,6 @@ __metadata:
   version: 3.0.0
   resolution: "strip-final-newline@npm:3.0.0"
   checksum: 10c0/a771a17901427bac6293fd416db7577e2bc1c34a19d38351e9d5478c3c415f523f391003b42ed475f27e33a78233035df183525395f731d3bfb8cdcbd4da08ce
-  languageName: node
-  linkType: hard
-
-"tailwindcss@npm:4.0.10":
-  version: 4.0.10
-  resolution: "tailwindcss@npm:4.0.10"
-  checksum: 10c0/dadc2789d61ec7d83075cbf04a1f8a12e6f572fa1e7ab14c63a246a6bb7546c90a70d11db379a1d865b9eaa1a98bf1758065015ce12c23994d03ef9038145e49
   languageName: node
   linkType: hard
 

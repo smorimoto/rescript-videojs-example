@@ -30,7 +30,7 @@
     "@types/node": "22.13.9",
     "react-scan": "0.2.9",
     "rescript": "12.0.0-alpha.9",
-    "tailwindcss": "4.0.10",
+    "tailwindcss": "4.0.11",
     "typescript": "5.8.2",
     "vite": "6.2.0"
   },
