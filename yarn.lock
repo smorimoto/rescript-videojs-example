@@ -1434,14 +1434,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bippy@npm:^0.3.7":
-  version: 0.3.7
-  resolution: "bippy@npm:0.3.7"
+"bippy@npm:^0.3.8":
+  version: 0.3.8
+  resolution: "bippy@npm:0.3.8"
   dependencies:
     "@types/react-reconciler": "npm:^0.28.9"
   peerDependencies:
     react: ">=17.0.1"
-  checksum: 10c0/0822f457650ebc94575d5dbe44ee10e53bae221d96dab58fd907ece4e5e72e2dc42af3d96f79053c2ef3d04cae808077be57c2750a9455216596fee179e559aa
+  checksum: 10c0/b922b9b180cc874b9004dbf5aced15f8a44804286f9274d21ad7d96f28e3abbacecb076dd804aa327ee68b1e9da1a5be70a3bbbf0d02810ef2a7f2e7c226e5a8
   languageName: node
   linkType: hard
 
@@ -2822,9 +2822,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-scan@npm:0.2.11":
-  version: 0.2.11
-  resolution: "react-scan@npm:0.2.11"
+"react-scan@npm:0.2.12":
+  version: 0.2.12
+  resolution: "react-scan@npm:0.2.12"
   dependencies:
     "@babel/core": "npm:^7.26.0"
     "@babel/generator": "npm:^7.26.2"
@@ -2835,7 +2835,7 @@ __metadata:
     "@preact/signals": "npm:^1.3.1"
     "@rollup/pluginutils": "npm:^5.1.3"
     "@types/node": "npm:^20.17.9"
-    bippy: "npm:^0.3.7"
+    bippy: "npm:^0.3.8"
     esbuild: "npm:^0.24.0"
     estree-walker: "npm:^3.0.3"
     kleur: "npm:^4.1.5"
@@ -2865,7 +2865,7 @@ __metadata:
       optional: true
   bin:
     react-scan: bin/cli.js
-  checksum: 10c0/9f2408b22915e050247e4aaa7f2a139d717b0526a51326e959f26cfec8e0c39676ca2986cda345fa655cb150673fa15fedd1409475375c337fef70e888159e98
+  checksum: 10c0/d195c269c3a2b5bff5ca113c813dc0473cb0219d3bb436b92e625d2b2346454bb716081b3086b862166234a8dcd6a1a8302ba04d2f2548a96e98eb1577b43f75
   languageName: node
   linkType: hard
 
@@ -2897,7 +2897,7 @@ __metadata:
     modern-css-reset: "npm:1.4.0"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
-    react-scan: "npm:0.2.11"
+    react-scan: "npm:0.2.12"
     rescript: "npm:12.0.0-alpha.9"
     tailwindcss: "npm:4.0.11"
     typescript: "npm:5.8.2"
