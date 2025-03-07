@@ -909,13 +909,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pivanov/utils@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "@pivanov/utils@npm:0.0.1"
+"@pivanov/utils@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@pivanov/utils@npm:0.0.2"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10c0/26fb2fdff704c2a15a4cfc2505cf90c7577e4b84184207aa226e4a48bc12800c730fdf4ed6256b3011abd372cade79a57b0242b50af2b335531b6aea24764c6b
+  checksum: 10c0/3baeb1496c49d96d94e9744c456f0de0dd42958342d87376722d60c37ca3da71e786d3c96540b9a33bc2a9dc2cf6407b06b43f47e460fb7fa575ec4a628077fd
   languageName: node
   linkType: hard
 
@@ -1300,6 +1300,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-reconciler@npm:^0.28.9":
+  version: 0.28.9
+  resolution: "@types/react-reconciler@npm:0.28.9"
+  peerDependencies:
+    "@types/react": "*"
+  checksum: 10c0/9fe71fa856aab2cd4742fe0416bdd4f5c82ecc05ef6451ee7fcb65a5efdf5fa588f5820fbe2a665b15371b0da3bfc4097f28bb6d450b9a834af2d0fc00f403bd
+  languageName: node
+  linkType: hard
+
 "@videojs/http-streaming@npm:^3.17.0":
   version: 3.17.0
   resolution: "@videojs/http-streaming@npm:3.17.0"
@@ -1425,10 +1434,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bippy@npm:0.2.7":
-  version: 0.2.7
-  resolution: "bippy@npm:0.2.7"
-  checksum: 10c0/c6505c2e9d708e110942d345b09fc957292a5592223f59936f4ea514741500e9e25eddc23d4e37763e94faa62314f4f40c49aca19aaeab7dd7f150d8b5f410b2
+"bippy@npm:^0.3.7":
+  version: 0.3.7
+  resolution: "bippy@npm:0.3.7"
+  dependencies:
+    "@types/react-reconciler": "npm:^0.28.9"
+  peerDependencies:
+    react: ">=17.0.1"
+  checksum: 10c0/0822f457650ebc94575d5dbe44ee10e53bae221d96dab58fd907ece4e5e72e2dc42af3d96f79053c2ef3d04cae808077be57c2750a9455216596fee179e559aa
   languageName: node
   linkType: hard
 
@@ -2811,20 +2824,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-scan@npm:0.2.9":
-  version: 0.2.9
-  resolution: "react-scan@npm:0.2.9"
+"react-scan@npm:0.2.10":
+  version: 0.2.10
+  resolution: "react-scan@npm:0.2.10"
   dependencies:
     "@babel/core": "npm:^7.26.0"
     "@babel/generator": "npm:^7.26.2"
     "@babel/types": "npm:^7.26.0"
     "@clack/core": "npm:^0.3.5"
     "@clack/prompts": "npm:^0.8.2"
-    "@pivanov/utils": "npm:^0.0.1"
+    "@pivanov/utils": "npm:0.0.2"
     "@preact/signals": "npm:^1.3.1"
     "@rollup/pluginutils": "npm:^5.1.3"
     "@types/node": "npm:^20.17.9"
-    bippy: "npm:0.2.7"
+    bippy: "npm:^0.3.7"
     esbuild: "npm:^0.24.0"
     estree-walker: "npm:^3.0.3"
     kleur: "npm:^4.1.5"
@@ -2854,7 +2867,7 @@ __metadata:
       optional: true
   bin:
     react-scan: bin/cli.js
-  checksum: 10c0/d15f6ead623ecd7dc111ac804feb4d8db19f673307e8279b44df38d6f8c4b703989cf856ba3066f003a8a4da2a8a16a94da0d664f542373bf5298353fb94bc8e
+  checksum: 10c0/13321c65fbaa02df9168d40bf5ee23fc1a50f2c826931a29490d1e97d849653dc2d47dd148ccbf73a6524525e593cd04ab318a096062a422510dd40da4c07e93
   languageName: node
   linkType: hard
 
@@ -2886,7 +2899,7 @@ __metadata:
     modern-css-reset: "npm:1.4.0"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
-    react-scan: "npm:0.2.9"
+    react-scan: "npm:0.2.10"
     rescript: "npm:12.0.0-alpha.9"
     tailwindcss: "npm:4.0.11"
     typescript: "npm:5.8.2"
