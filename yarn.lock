@@ -944,9 +944,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-scan/vite-plugin-react-scan@npm:0.1.5":
-  version: 0.1.5
-  resolution: "@react-scan/vite-plugin-react-scan@npm:0.1.5"
+"@react-scan/vite-plugin-react-scan@npm:0.1.7":
+  version: 0.1.7
+  resolution: "@react-scan/vite-plugin-react-scan@npm:0.1.7"
   dependencies:
     "@babel/core": "npm:^7.26.0"
     "@babel/plugin-transform-react-jsx": "npm:^7.25.9"
@@ -961,7 +961,7 @@ __metadata:
       optional: false
     vite:
       optional: false
-  checksum: 10c0/47df5fed18b825461ddb99a55d4a21a6c8931f3ad1a667189ea8e83629afe70afa852f46c319bb8b6e7ddbc65d2e451e45941dee3f8b08b926782047d3f400a1
+  checksum: 10c0/95b991b70cc9bda44ab116a16da5ee95f3f82fe7072429a35fbfb0da46132142fc9bd6a23d6c2bcaa6d856e3feb72518b0e8db7f4d56be81a88f6bc486c1c5e2
   languageName: node
   linkType: hard
 
@@ -2889,7 +2889,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
     "@jihchi/vite-plugin-rescript": "npm:6.0.0"
-    "@react-scan/vite-plugin-react-scan": "npm:0.1.5"
+    "@react-scan/vite-plugin-react-scan": "npm:0.1.7"
     "@rescript/react": "npm:0.13.1"
     "@tailwindcss/vite": "npm:4.0.14"
     "@tsconfig/strictest": "npm:2.0.5"
