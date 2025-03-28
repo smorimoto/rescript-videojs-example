@@ -34,5 +34,5 @@
     "typescript": "5.8.2",
     "vite": "6.2.3"
   },
-  "packageManager": "yarn@4.7.0"
+  "packageManager": "yarn@4.8.0"
 }
