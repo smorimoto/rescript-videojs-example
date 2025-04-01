@@ -2942,7 +2942,7 @@ __metadata:
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
     react-scan: "npm:0.3.3"
-    rescript: "npm:12.0.0-alpha.10"
+    rescript: "npm:12.0.0-alpha.11"
     tailwindcss: "npm:4.0.17"
     typescript: "npm:5.8.2"
     video.js: "npm:8.22.0"
@@ -2950,16 +2950,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript@npm:12.0.0-alpha.10":
-  version: 12.0.0-alpha.10
-  resolution: "rescript@npm:12.0.0-alpha.10"
+"rescript@npm:12.0.0-alpha.11":
+  version: 12.0.0-alpha.11
+  resolution: "rescript@npm:12.0.0-alpha.11"
   bin:
-    bsc: cli/bsc
-    bstracing: lib/bstracing
-    rescript: cli/rescript
-    rescript-tools: cli/rescript-tools
-    rewatch: cli/rewatch
-  checksum: 10c0/42b75c8d4e5ed595384ce1b186d1101a7378e76e3fd1697d43f020e243b0d36b166ead5e6acc880cd50a6bf876c69c56512d077ca4fc386e7d8c39ec692cfe27
+    bsc: cli/bsc.js
+    bstracing: lib/bstracing.js
+    rescript: cli/rescript.js
+    rescript-tools: cli/rescript-tools.js
+    rewatch: cli/rewatch.js
+  checksum: 10c0/013a2185bcce2c7322a23868fa9798f064c2dde260ac9bc699cc017abaed9f8bb3cced92bccdf015d6301d53f93b23797842e59f6535d757d35afd606bf5fa4f
   languageName: node
   linkType: hard
 
