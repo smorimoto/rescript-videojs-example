@@ -1,3 +1,8 @@
 {
-  "recommendations": ["bradlc.vscode-tailwindcss", "chenglou92.rescript-vscode"]
+  "recommendations": [
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "chenglou92.rescript-vscode",
+    "editorconfig.editorconfig"
+  ]
 }

@@ -4,6 +4,6 @@ let () = {
     root
     ->ReactDOM.Client.createRoot
     ->ReactDOM.Client.Root.render(<App />)
-  | None => ()
+  | None => "Root element not found - unable to initialise the application"->Js.Console.error
   }
 }
