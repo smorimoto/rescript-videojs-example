@@ -1,21 +1,28 @@
 {
   "$schema": "node_modules/@biomejs/biome/configuration_schema.json",
-  "formatter": {
+  "vcs": {
     "enabled": true,
-    "useEditorconfig": true
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "defaultBranch": "main"
   },
   "linter": {
     "enabled": true,
+    "domains": {
+      "project": "recommended"
+    },
     "rules": {
       "recommended": true
     }
   },
-  "organizeImports": {
-    "enabled": true
-  },
-  "vcs": {
-    "clientKind": "git",
+  "formatter": {
     "enabled": true,
-    "useIgnoreFile": true
+    "useEditorconfig": true
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "recommended": true
+    }
   }
 }
