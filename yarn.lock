@@ -1366,12 +1366,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.15.11":
-  version: 22.15.11
-  resolution: "@types/node@npm:22.15.11"
+"@types/node@npm:22.15.12":
+  version: 22.15.12
+  resolution: "@types/node@npm:22.15.12"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/30019fe6f9f3a6aeade646a6a8af11e3d5fe1458a556b8ae404cea1da7fa496bb7f68ca5fa75deca358cfec80bed04fb7dd0d0203073a4208ec2e91c4037fddf
+  checksum: 10c0/b9c34f8089764edf229576e4b7d51681a4dfaf0893bf08cd884aec2e76a79a2a74d4ce114590a61cf4419e6818185730ed6165b015c5e552b4ad4444eb2f06db
   languageName: node
   linkType: hard
 
@@ -3011,7 +3011,7 @@ __metadata:
     "@rescript/react": "npm:0.13.1"
     "@tailwindcss/vite": "npm:4.1.5"
     "@tsconfig/strictest": "npm:2.0.5"
-    "@types/node": "npm:22.15.11"
+    "@types/node": "npm:22.15.12"
     modern-css-reset: "npm:1.4.0"
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
