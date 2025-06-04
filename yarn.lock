@@ -2807,7 +2807,7 @@ __metadata:
     rescript: "npm:12.0.0-alpha.13"
     tailwindcss: "npm:4.1.8"
     typescript: "npm:5.8.3"
-    video.js: "npm:8.22.0"
+    video.js: "npm:8.23.3"
     vite: "npm:6.3.5"
   languageName: unknown
   linkType: soft
@@ -3242,9 +3242,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"video.js@npm:8.22.0":
-  version: 8.22.0
-  resolution: "video.js@npm:8.22.0"
+"video.js@npm:8.23.3":
+  version: 8.23.3
+  resolution: "video.js@npm:8.23.3"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@videojs/http-streaming": "npm:^3.17.0"
@@ -3258,7 +3258,7 @@ __metadata:
     videojs-contrib-quality-levels: "npm:4.1.0"
     videojs-font: "npm:4.2.0"
     videojs-vtt.js: "npm:0.15.5"
-  checksum: 10c0/f8f6005724ff088a8c2d425bd1727930258bcd88b9963237e51a4e744a03ca5b790a6a50b421a4536e9e5d98a04b98923fa7d3ebaf9c9b77df6b1369415242fd
+  checksum: 10c0/6633257a09b22da230d3285de93082522187465dc05ca12b12e265be8c53836b3963ea3472abd0ad33af14d9a14cf9fed7935d8318a4690141a19712baca7277
   languageName: node
   linkType: hard
 
