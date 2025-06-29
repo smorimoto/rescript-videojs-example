@@ -2735,9 +2735,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-scan@npm:0.3.6":
-  version: 0.3.6
-  resolution: "react-scan@npm:0.3.6"
+"react-scan@npm:0.4.0":
+  version: 0.4.0
+  resolution: "react-scan@npm:0.4.0"
   dependencies:
     "@babel/core": "npm:^7.26.0"
     "@babel/generator": "npm:^7.26.2"
@@ -2778,7 +2778,7 @@ __metadata:
       optional: true
   bin:
     react-scan: bin/cli.js
-  checksum: 10c0/a5d6d86596bac10912637ca6d611a9d453cffc2377fefac99e8dfda2daa621f0d216c0e7c0fb603a29fb10205b1a3167b1381118700100e623059c85e93c8109
+  checksum: 10c0/996a1a7e17e30cb79bd47c620ed0457be2b5bdd05e0fbde1e0ce22575e2dc564a9d825e23df6525ea358afead34eab2ee30ca017babcae8a18cf85582d042488
   languageName: node
   linkType: hard
 
@@ -2803,7 +2803,7 @@ __metadata:
     modern-css-reset: "npm:1.4.0"
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
-    react-scan: "npm:0.3.6"
+    react-scan: "npm:0.4.0"
     rescript: "npm:12.0.0-alpha.14"
     tailwindcss: "npm:4.1.11"
     typescript: "npm:5.8.3"
