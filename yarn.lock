@@ -861,13 +861,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/react@npm:0.13.1":
-  version: 0.13.1
-  resolution: "@rescript/react@npm:0.13.1"
+"@rescript/react@npm:0.14.0":
+  version: 0.14.0
+  resolution: "@rescript/react@npm:0.14.0"
   peerDependencies:
-    react: ">=18.0.0"
-    react-dom: ">=18.0.0"
-  checksum: 10c0/c4d04536daf7acc3f6452890665333211ad08723ecb9e9efdd66ea7bf7de6503f513d6dabad400415fcae7625740431f1c121fa3abbc4b7446b60e2e7052df32
+    react: ">=19.0.0"
+    react-dom: ">=19.0.0"
+  checksum: 10c0/9463eb027df1d28aab60879d3779f0832270580b381fc7b980387ffe080b821548242fef419cfe0a625d9d9866c4f7d676ed77f500374c22b2affd83ebd8bbaa
   languageName: node
   linkType: hard
 
@@ -2807,7 +2807,7 @@ __metadata:
     "@biomejs/biome": "npm:2.1.2"
     "@jihchi/vite-plugin-rescript": "npm:7.0.0"
     "@react-scan/vite-plugin-react-scan": "npm:0.1.8"
-    "@rescript/react": "npm:0.13.1"
+    "@rescript/react": "npm:0.14.0"
     "@tailwindcss/vite": "npm:4.1.11"
     "@tsconfig/strictest": "npm:2.0.5"
     "@types/node": "npm:22.16.5"
