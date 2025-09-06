@@ -17,6 +17,7 @@ jobs:
         with:
           check-latest: true
           node-version-file: .nvmrc
+          package-manager-cache: false
       - run: corepack enable
       - run: yarn install --immutable
       - run: yarn lint
