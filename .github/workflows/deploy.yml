@@ -15,42 +15,32 @@ permissions: read-all
 jobs:
   deploy:
     name: Deploy
-
     permissions:
       contents: read
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout tree
         uses: actions/checkout@v5
-
       - name: Set-up Node.js
         uses: actions/setup-node@v5
         with:
           check-latest: true
           node-version-file: .nvmrc
-
+          package-manager-cache: false
       - run: corepack enable
-
       - run: yarn install --immutable
-
       - run: yarn build
-
       - name: Set-up Pages
         uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: dist
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
