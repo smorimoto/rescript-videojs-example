@@ -686,17 +686,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jihchi/vite-plugin-rescript@npm:8.0.0-beta.1":
-  version: 8.0.0-beta.1
-  resolution: "@jihchi/vite-plugin-rescript@npm:8.0.0-beta.1"
+"@jihchi/vite-plugin-rescript@npm:8.0.0-beta.2":
+  version: 8.0.0-beta.2
+  resolution: "@jihchi/vite-plugin-rescript@npm:8.0.0-beta.2"
   dependencies:
     chalk: "npm:^5.6.2"
     execa: "npm:^9.6.0"
     npm-run-path: "npm:^6.0.0"
   peerDependencies:
-    rescript: ">=12.0.0-beta.4"
+    rescript: ">=12.0.0-beta.11"
     vite: ">=5.1.0"
-  checksum: 10c0/e50a058cc1e5d97c4b40907e66a21e8b0bfa09aef38ce285498076ddcf1e4b1d498db01e06d737c6f0986061e445e0ff3354ae31cb585a4766a25442a2515388
+  checksum: 10c0/d463d852f6268b2103efe3bd06c2d8a07cba08e6a295633a3be58b23bae9b58b9df23c3731ba56716e24b141bb98ee42b2233a028e2a668a6d1e58a2da95ac15
   languageName: node
   linkType: hard
 
@@ -2800,7 +2800,7 @@ __metadata:
   resolution: "rescript-videojs-example@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.2.4"
-    "@jihchi/vite-plugin-rescript": "npm:8.0.0-beta.1"
+    "@jihchi/vite-plugin-rescript": "npm:8.0.0-beta.2"
     "@react-scan/vite-plugin-react-scan": "npm:0.1.8"
     "@rescript/react": "npm:0.14.0"
     "@tailwindcss/vite": "npm:4.1.13"
