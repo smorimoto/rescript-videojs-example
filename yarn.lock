@@ -686,17 +686,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jihchi/vite-plugin-rescript@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@jihchi/vite-plugin-rescript@npm:7.0.0"
+"@jihchi/vite-plugin-rescript@npm:8.0.0-beta.1":
+  version: 8.0.0-beta.1
+  resolution: "@jihchi/vite-plugin-rescript@npm:8.0.0-beta.1"
   dependencies:
-    chalk: "npm:^5.4.1"
-    execa: "npm:^9.5.1"
+    chalk: "npm:^5.6.2"
+    execa: "npm:^9.6.0"
     npm-run-path: "npm:^6.0.0"
   peerDependencies:
-    rescript: ">=9"
+    rescript: ">=12.0.0-beta.4"
     vite: ">=5.1.0"
-  checksum: 10c0/5c86e1d84dda8c2ab23c275dfbff76973b63b56761e20b8cd5dc48a9228ca3c7c8236f26d4c2f73511acfd07f082ab9f912915b4438ecf2ba788bb37461debfc
+  checksum: 10c0/e50a058cc1e5d97c4b40907e66a21e8b0bfa09aef38ce285498076ddcf1e4b1d498db01e06d737c6f0986061e445e0ff3354ae31cb585a4766a25442a2515388
   languageName: node
   linkType: hard
 
@@ -833,30 +833,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/darwin-arm64@npm:12.0.0-alpha.14":
-  version: 12.0.0-alpha.14
-  resolution: "@rescript/darwin-arm64@npm:12.0.0-alpha.14"
+"@rescript/darwin-arm64@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "@rescript/darwin-arm64@npm:12.0.0-beta.11"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rescript/darwin-x64@npm:12.0.0-alpha.14":
-  version: 12.0.0-alpha.14
-  resolution: "@rescript/darwin-x64@npm:12.0.0-alpha.14"
+"@rescript/darwin-x64@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "@rescript/darwin-x64@npm:12.0.0-beta.11"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rescript/linux-arm64@npm:12.0.0-alpha.14":
-  version: 12.0.0-alpha.14
-  resolution: "@rescript/linux-arm64@npm:12.0.0-alpha.14"
+"@rescript/linux-arm64@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "@rescript/linux-arm64@npm:12.0.0-beta.11"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rescript/linux-x64@npm:12.0.0-alpha.14":
-  version: 12.0.0-alpha.14
-  resolution: "@rescript/linux-x64@npm:12.0.0-alpha.14"
+"@rescript/linux-x64@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "@rescript/linux-x64@npm:12.0.0-beta.11"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
@@ -871,9 +871,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/win32-x64@npm:12.0.0-alpha.14":
-  version: 12.0.0-alpha.14
-  resolution: "@rescript/win32-x64@npm:12.0.0-alpha.14"
+"@rescript/runtime@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "@rescript/runtime@npm:12.0.0-beta.11"
+  checksum: 10c0/c5862e59b369d454887e04a6df5ae3ce448bb7a4fcf987d0a74ae5e2744fa7fb516b355ab9ae4193fbd2c1c66eef7cb8addd493f49f929ccdafd619250fb0ad5
+  languageName: node
+  linkType: hard
+
+"@rescript/win32-x64@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "@rescript/win32-x64@npm:12.0.0-beta.11"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1464,10 +1471,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.4.1":
-  version: 5.6.0
-  resolution: "chalk@npm:5.6.0"
-  checksum: 10c0/f8558fc12fd9805f167611803b325b0098bbccdc9f1d3bafead41c9bac61f263357f3c0df0cbe28bc2fd5fca3edcf618b01d6771a5a776b4c15d061482a72b23
+"chalk@npm:^5.6.2":
+  version: 5.6.2
+  resolution: "chalk@npm:5.6.2"
+  checksum: 10c0/99a4b0f0e7991796b1e7e3f52dceb9137cae2a9dfc8fc0784a550dc4c558e15ab32ed70b14b21b52beb2679b4892b41a0aa44249bcb996f01e125d58477c6976
   languageName: node
   linkType: hard
 
@@ -1826,7 +1833,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^9.5.1":
+"execa@npm:^9.6.0":
   version: 9.6.0
   resolution: "execa@npm:9.6.0"
   dependencies:
@@ -2793,7 +2800,7 @@ __metadata:
   resolution: "rescript-videojs-example@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.2.4"
-    "@jihchi/vite-plugin-rescript": "npm:7.0.0"
+    "@jihchi/vite-plugin-rescript": "npm:8.0.0-beta.1"
     "@react-scan/vite-plugin-react-scan": "npm:0.1.8"
     "@rescript/react": "npm:0.14.0"
     "@tailwindcss/vite": "npm:4.1.13"
@@ -2803,7 +2810,7 @@ __metadata:
     react: "npm:19.1.1"
     react-dom: "npm:19.1.1"
     react-scan: "npm:0.4.3"
-    rescript: "npm:12.0.0-alpha.14"
+    rescript: "npm:12.0.0-beta.11"
     tailwindcss: "npm:4.1.13"
     typescript: "npm:5.9.2"
     video.js: "npm:8.23.4"
@@ -2811,15 +2818,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript@npm:12.0.0-alpha.14":
-  version: 12.0.0-alpha.14
-  resolution: "rescript@npm:12.0.0-alpha.14"
+"rescript@npm:12.0.0-beta.11":
+  version: 12.0.0-beta.11
+  resolution: "rescript@npm:12.0.0-beta.11"
   dependencies:
-    "@rescript/darwin-arm64": "npm:12.0.0-alpha.14"
-    "@rescript/darwin-x64": "npm:12.0.0-alpha.14"
-    "@rescript/linux-arm64": "npm:12.0.0-alpha.14"
-    "@rescript/linux-x64": "npm:12.0.0-alpha.14"
-    "@rescript/win32-x64": "npm:12.0.0-alpha.14"
+    "@rescript/darwin-arm64": "npm:12.0.0-beta.11"
+    "@rescript/darwin-x64": "npm:12.0.0-beta.11"
+    "@rescript/linux-arm64": "npm:12.0.0-beta.11"
+    "@rescript/linux-x64": "npm:12.0.0-beta.11"
+    "@rescript/runtime": "npm:12.0.0-beta.11"
+    "@rescript/win32-x64": "npm:12.0.0-beta.11"
   dependenciesMeta:
     "@rescript/darwin-arm64":
       optional: true
@@ -2835,9 +2843,9 @@ __metadata:
     bsc: cli/bsc.js
     bstracing: cli/bstracing.js
     rescript: cli/rescript.js
+    rescript-legacy: cli/rescript-legacy.js
     rescript-tools: cli/rescript-tools.js
-    rewatch: cli/rewatch.js
-  checksum: 10c0/dfb4bfd0399f70bf402da6dd94d848c0e7d2c499b5e2a827e975fa3dffbbbd0957ce727d21b1f13d6c52e86b71caa94ea05ae9ad7a41b0f1a53995b0e71e8466
+  checksum: 10c0/95cd8131082535ec773465ce8721e7340adb08aab6ea4b744b46671b92de5475b6104eaaa66ea9d669bca71eb652dd07df3cd3e4b1763023c3a382339a2098e6
   languageName: node
   linkType: hard
 
