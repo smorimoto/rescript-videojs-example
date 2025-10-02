@@ -32,7 +32,7 @@
     "rescript": "12.0.0-beta.13",
     "tailwindcss": "4.1.14",
     "typescript": "5.9.3",
-    "vite": "7.1.7"
+    "vite": "7.1.8"
   },
   "packageManager": "yarn@4.10.3"
 }
