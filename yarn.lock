@@ -833,30 +833,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/darwin-arm64@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "@rescript/darwin-arm64@npm:12.0.0-beta.13"
+"@rescript/darwin-arm64@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "@rescript/darwin-arm64@npm:12.0.0-beta.14"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rescript/darwin-x64@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "@rescript/darwin-x64@npm:12.0.0-beta.13"
+"@rescript/darwin-x64@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "@rescript/darwin-x64@npm:12.0.0-beta.14"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rescript/linux-arm64@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "@rescript/linux-arm64@npm:12.0.0-beta.13"
+"@rescript/linux-arm64@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "@rescript/linux-arm64@npm:12.0.0-beta.14"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rescript/linux-x64@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "@rescript/linux-x64@npm:12.0.0-beta.13"
+"@rescript/linux-x64@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "@rescript/linux-x64@npm:12.0.0-beta.14"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
@@ -871,16 +871,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/runtime@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "@rescript/runtime@npm:12.0.0-beta.13"
-  checksum: 10c0/41d354e592509cc1fc2ea45b3876440607e146f90176ca88185229ed7ff9df2296909ad5ce3602c88e9e21b07c386ada992cbe5b72749ca17215a4e95281852d
+"@rescript/runtime@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "@rescript/runtime@npm:12.0.0-beta.14"
+  checksum: 10c0/3e4a6e5df9a673f7095b29f971d0dc67958bc617c3219980050742257f3d66797acfee87b136fb61dc1009c6499a48ffe921a5a47eab233f77b5dc3eaf9d691b
   languageName: node
   linkType: hard
 
-"@rescript/win32-x64@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "@rescript/win32-x64@npm:12.0.0-beta.13"
+"@rescript/win32-x64@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "@rescript/win32-x64@npm:12.0.0-beta.14"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2818,7 +2818,7 @@ __metadata:
     react: "npm:19.2.0"
     react-dom: "npm:19.2.0"
     react-scan: "npm:0.4.3"
-    rescript: "npm:12.0.0-beta.13"
+    rescript: "npm:12.0.0-beta.14"
     tailwindcss: "npm:4.1.14"
     typescript: "npm:5.9.3"
     video.js: "npm:8.23.4"
@@ -2826,16 +2826,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript@npm:12.0.0-beta.13":
-  version: 12.0.0-beta.13
-  resolution: "rescript@npm:12.0.0-beta.13"
+"rescript@npm:12.0.0-beta.14":
+  version: 12.0.0-beta.14
+  resolution: "rescript@npm:12.0.0-beta.14"
   dependencies:
-    "@rescript/darwin-arm64": "npm:12.0.0-beta.13"
-    "@rescript/darwin-x64": "npm:12.0.0-beta.13"
-    "@rescript/linux-arm64": "npm:12.0.0-beta.13"
-    "@rescript/linux-x64": "npm:12.0.0-beta.13"
-    "@rescript/runtime": "npm:12.0.0-beta.13"
-    "@rescript/win32-x64": "npm:12.0.0-beta.13"
+    "@rescript/darwin-arm64": "npm:12.0.0-beta.14"
+    "@rescript/darwin-x64": "npm:12.0.0-beta.14"
+    "@rescript/linux-arm64": "npm:12.0.0-beta.14"
+    "@rescript/linux-x64": "npm:12.0.0-beta.14"
+    "@rescript/runtime": "npm:12.0.0-beta.14"
+    "@rescript/win32-x64": "npm:12.0.0-beta.14"
   dependenciesMeta:
     "@rescript/darwin-arm64":
       optional: true
@@ -2853,7 +2853,7 @@ __metadata:
     rescript: cli/rescript.js
     rescript-legacy: cli/rescript-legacy.js
     rescript-tools: cli/rescript-tools.js
-  checksum: 10c0/f6796c998eff4193ac14785aeaf5f064a6f0510fbe793459ca9a871dbd8e769d42545791261ee531a1692c6bffee3a87fb17f8a82c30d18c9cb0f773794141ef
+  checksum: 10c0/5701a64daf4e7c21625bb6d695f456c2fa6f7ef59b970565e0439aea592c69518d681d0e276c68d29fe9a006ae1c0f916482730270d9f15fc89fd4fd8f9866f0
   languageName: node
   linkType: hard
 
