@@ -23,7 +23,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.1",
     "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
-    "@react-scan/vite-plugin-react-scan": "0.1.8",
+    "@react-scan/vite-plugin-react-scan": "0.2.0",
     "@rescript/react": "0.14.1",
     "@tailwindcss/vite": "4.1.18",
     "@tsconfig/strictest": "2.0.8",
