@@ -949,9 +949,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-scan/vite-plugin-react-scan@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@react-scan/vite-plugin-react-scan@npm:0.2.0"
+"@react-scan/vite-plugin-react-scan@npm:0.2.3":
+  version: 0.2.3
+  resolution: "@react-scan/vite-plugin-react-scan@npm:0.2.3"
   dependencies:
     "@babel/core": "npm:^7.26.0"
     "@babel/plugin-transform-react-jsx": "npm:^7.25.9"
@@ -959,14 +959,14 @@ __metadata:
     babel-plugin-add-react-displayname: "npm:^0.0.5"
     cheerio: "npm:^1.0.0"
   peerDependencies:
-    react-scan: ">=0.5.0"
+    react-scan: ">=0.5.3"
     vite: ^2 || ^3 || ^4 || ^5 || ^6
   peerDependenciesMeta:
     react-scan:
       optional: false
     vite:
       optional: false
-  checksum: 10c0/59873b88b6f4c893ce91a8692ecb069731ce436788dc7941baa2840f25757618ab457f581c5c3d07165f778916df5e8b3f12cb6fdcf27170a730265449c870bd
+  checksum: 10c0/8ea0a122a260cf238ef735950a4abeb4479840a229e58bd91a0898ec2eacc9081fc2b277f0edb124ee877eb6e9265684030cb20c4a6a156037e949b90607bf16
   languageName: node
   linkType: hard
 
@@ -2913,7 +2913,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:2.4.2"
     "@jihchi/vite-plugin-rescript": "npm:8.0.0-beta.2"
-    "@react-scan/vite-plugin-react-scan": "npm:0.2.0"
+    "@react-scan/vite-plugin-react-scan": "npm:0.2.3"
     "@rescript/react": "npm:0.14.1"
     "@tailwindcss/vite": "npm:4.1.18"
     "@tsconfig/strictest": "npm:2.0.8"
