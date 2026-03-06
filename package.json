@@ -27,7 +27,7 @@
     "@rescript/react": "0.14.1",
     "@tailwindcss/vite": "4.2.1",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "24.11.2",
+    "@types/node": "24.12.0",
     "react-scan": "0.5.3",
     "rescript": "12.2.0",
     "tailwindcss": "4.2.1",
