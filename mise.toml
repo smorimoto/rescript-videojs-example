@@ -1,0 +1,5 @@
+[tools]
+node = "25"
+
+[env]
+_.file = ".env"

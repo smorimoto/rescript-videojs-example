@@ -26,12 +26,8 @@ jobs:
     steps:
       - name: Checkout tree
         uses: actions/checkout@v6
-      - name: Set-up Node.js
-        uses: actions/setup-node@v6
-        with:
-          check-latest: true
-          node-version-file: .nvmrc
-      - run: corepack enable
+      - name: Set-up Mise
+        uses: jdx/mise-action@v4
       - run: yarn install --immutable
       - run: yarn build
       - name: Set-up Pages
