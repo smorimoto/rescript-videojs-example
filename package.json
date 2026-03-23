@@ -12,6 +12,7 @@
     "lint": "vp check && rescript format --check"
   },
   "dependencies": {
+    "@rescript/runtime": "12.2.0",
     "modern-css-reset": "1.4.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -30,9 +31,8 @@
     "typescript": "6.0.2",
     "vite-plus": "0.1.13"
   },
-  "resolutions": {
+  "overrides": {
     "video.js": "8.23.7",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest"
-  },
-  "packageManager": "yarn@4.13.0"
+  }
 }

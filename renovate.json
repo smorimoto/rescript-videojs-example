@@ -12,6 +12,5 @@
       "matchUpdateTypes": ["minor", "patch", "lockFileMaintenance"]
     }
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"],
   "rebaseWhen": "conflicted"
 }
