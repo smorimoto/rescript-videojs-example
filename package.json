@@ -3,16 +3,13 @@
   "private": true,
   "license": "ISC",
   "author": "Sora Morimoto <sora@morimoto.io>",
-  "sideEffects": false,
   "type": "module",
+  "sideEffects": false,
   "scripts": {
-    "build": "rescript clean && vite build",
-    "dev": "vite",
-    "fix": "biome check --fix && rescript format",
-    "lint": "biome check && rescript format --check"
-  },
-  "resolutions": {
-    "video.js": "8.23.7"
+    "build": "rescript clean && vp build",
+    "dev": "vp dev",
+    "fix": "vp check --fix && rescript format",
+    "lint": "vp check && rescript format --check"
   },
   "dependencies": {
     "modern-css-reset": "1.4.0",
@@ -21,7 +18,6 @@
     "video.js": "8.23.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.8",
     "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
     "@react-scan/vite-plugin-react-scan": "0.2.3",
     "@rescript/react": "0.14.2",
@@ -32,7 +28,11 @@
     "rescript": "12.2.0",
     "tailwindcss": "4.2.2",
     "typescript": "6.0.2",
-    "vite": "8.0.2"
+    "vite-plus": "0.1.13"
+  },
+  "resolutions": {
+    "video.js": "8.23.7",
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest"
   },
   "packageManager": "yarn@4.13.0"
 }
