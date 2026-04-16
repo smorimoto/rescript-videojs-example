@@ -14,7 +14,7 @@
       "devDependencies": {
         "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
         "@react-scan/vite-plugin-react-scan": "0.2.3",
-        "@rescript/react": "0.14.2",
+        "@rescript/react": "0.15.0",
         "@tailwindcss/vite": "4.2.2",
         "@tsconfig/strictest": "2.0.8",
         "@types/node": "25.6.0",
@@ -263,7 +263,7 @@
 
     "@rescript/linux-x64": ["@rescript/linux-x64@12.2.0", "", { "os": "linux", "cpu": "x64" }, "sha512-2W9Y9/g19Y4F/subl8yV3T8QBG2oRaP+HciNRcBjptyEdw9LmCKH8+rhWO6sp3E+nZLwoE2IAkwH0WKV3wqlxQ=="],
 
-    "@rescript/react": ["@rescript/react@0.14.2", "", { "peerDependencies": { "react": ">=19.1.0", "react-dom": ">=19.1.0" } }, "sha512-gRmWuHWQIdH0zgueEq1p5oMHwpsXLBpD3zZo+J9kop8z8CCQQtlxnGZbfBoNIdciHGbE0+oYpc5PaCGYskuLjQ=="],
+    "@rescript/react": ["@rescript/react@0.15.0", "", { "peerDependencies": { "@rescript/runtime": ">=12.0.0", "react": ">=19.2.0", "react-dom": ">=19.2.0" } }, "sha512-qDrrgxYzxRL/pjug617u5Q4+aqEfV5g+GQnd+eCWb0XqPrKucaDzN5rirDUZPg8UrqU/AvCP8Ev5cFd+MJx88A=="],
 
     "@rescript/runtime": ["@rescript/runtime@12.2.0", "", {}, "sha512-NwfljDRq1rjFPHUaca1nzFz13xsa9ZGkBkLvMhvVgavJT5+A4rMcLu8XAaVTi/oAhO/tlHf9ZDoOTF1AfyAk9Q=="],
 
