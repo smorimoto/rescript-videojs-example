@@ -5,7 +5,7 @@
     "": {
       "name": "rescript-videojs-example",
       "dependencies": {
-        "@rescript/runtime": "12.2.0",
+        "@rescript/runtime": "12.3.0",
         "modern-css-reset": "1.4.0",
         "react": "19.2.6",
         "react-dom": "19.2.6",
@@ -217,7 +217,7 @@
 
     "@rescript/react": ["@rescript/react@0.15.0", "", { "peerDependencies": { "@rescript/runtime": ">=12.0.0", "react": ">=19.2.0", "react-dom": ">=19.2.0" } }, "sha512-qDrrgxYzxRL/pjug617u5Q4+aqEfV5g+GQnd+eCWb0XqPrKucaDzN5rirDUZPg8UrqU/AvCP8Ev5cFd+MJx88A=="],
 
-    "@rescript/runtime": ["@rescript/runtime@12.2.0", "", {}, "sha512-NwfljDRq1rjFPHUaca1nzFz13xsa9ZGkBkLvMhvVgavJT5+A4rMcLu8XAaVTi/oAhO/tlHf9ZDoOTF1AfyAk9Q=="],
+    "@rescript/runtime": ["@rescript/runtime@12.3.0", "", {}, "sha512-8SRM2f6+LaWach8NJjYQVCCmu6KYmJCb+437L7YpaUpJBDyUOC1x0FF75shZ/Gid9guKPF3zMHrTNHLuyQkkiQ=="],
 
     "@rescript/win32-x64": ["@rescript/win32-x64@12.3.0", "", { "os": "win32", "cpu": "x64" }, "sha512-TM1aLfn8IJFi0/ztVwHqQOcmJg4jWFCmXjrIS9Tif+6Gx8NdX8ttommUscUghe+Dn2pI382FvqPPNWRUR3AI8g=="],
 
@@ -626,7 +626,5 @@
     "htmlparser2/entities": ["entities@7.0.1", "", {}, "sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA=="],
 
     "parse5/entities": ["entities@6.0.1", "", {}, "sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g=="],
-
-    "rescript/@rescript/runtime": ["@rescript/runtime@12.3.0", "", {}, "sha512-8SRM2f6+LaWach8NJjYQVCCmu6KYmJCb+437L7YpaUpJBDyUOC1x0FF75shZ/Gid9guKPF3zMHrTNHLuyQkkiQ=="],
   }
 }
