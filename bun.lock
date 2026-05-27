@@ -13,7 +13,7 @@
       },
       "devDependencies": {
         "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
-        "@react-scan/vite-plugin-react-scan": "0.2.6",
+        "@react-scan/vite-plugin-react-scan": "0.2.7",
         "@rescript/react": "0.15.0",
         "@tailwindcss/vite": "4.3.0",
         "@tsconfig/strictest": "2.0.8",
@@ -205,7 +205,7 @@
 
     "@react-grab/cli": ["@react-grab/cli@0.1.37", "", { "dependencies": { "commander": "^14.0.3", "ignore": "^7.0.5", "jsonc-parser": "^3.3.1", "ora": "^9.4.0", "package-manager-detector": "^1.6.0", "picocolors": "^1.1.1", "prompts": "^2.4.2", "smol-toml": "^1.6.1", "tinyexec": "^1.1.2" }, "bin": { "react-grab": "bin/cli.js" } }, "sha512-1ln28VkVHUbd5qy+ccXG68voWc0mgZMhBnwG0umxfD+wbkXUcvRzVrLjSqao7N8hCrDqp+Pt5j9Tsqef+9yQQQ=="],
 
-    "@react-scan/vite-plugin-react-scan": ["@react-scan/vite-plugin-react-scan@0.2.6", "", { "dependencies": { "@babel/core": "^7.26.0", "@babel/plugin-transform-react-jsx": "^7.25.9", "@babel/preset-typescript": "^7.23.3", "babel-plugin-add-react-displayname": "^0.0.5", "cheerio": "^1.0.0" }, "peerDependencies": { "react-scan": ">=0.5.6", "vite": "^2 || ^3 || ^4 || ^5 || ^6" } }, "sha512-0uLNEXfok1j9fQzDZ1/S/ZMYBJ1vvmf62xMWwopmE3XfX9x/kpyLcRlhY/0ZvCN5iWg38fN1mT0/48bbEIjxug=="],
+    "@react-scan/vite-plugin-react-scan": ["@react-scan/vite-plugin-react-scan@0.2.7", "", { "dependencies": { "@babel/core": "^7.29.0", "@babel/plugin-transform-react-jsx": "^7.25.9", "@babel/preset-typescript": "^7.23.3", "babel-plugin-add-react-displayname": "^0.0.5", "cheerio": "^1.2.0" }, "peerDependencies": { "react-scan": ">=0.5.7", "vite": "^2 || ^3 || ^4 || ^5 || ^6" } }, "sha512-tJu2J4+lbB+YrHmq8u1ZryQrTrFNRkyhw/xyQSe9yLISckAFSpwW9g7bOZj4tQt4TojXAJIkemD0KAf4hCmXRg=="],
 
     "@rescript/darwin-arm64": ["@rescript/darwin-arm64@12.3.0", "", { "os": "darwin", "cpu": "arm64" }, "sha512-tw0E+XcpPoFj3KizsT5qS/5O/dILi0NBZAz5I8ONK+F43qcqDJDDO+Ise45rGoNWhjwt9WOerYnOd0eUe3U9GA=="],
 
