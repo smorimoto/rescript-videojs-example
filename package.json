@@ -16,7 +16,7 @@
     "modern-css-reset": "1.4.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "video.js": "8.23.7"
+    "video.js": "8.23.8"
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
@@ -32,7 +32,7 @@
     "vite-plus": "0.2.0"
   },
   "overrides": {
-    "video.js": "8.23.7",
+    "video.js": "8.23.8",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest"
   }
 }
