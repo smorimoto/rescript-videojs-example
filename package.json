@@ -29,7 +29,7 @@
     "rescript": "12.3.0",
     "tailwindcss": "4.3.2",
     "typescript": "6.0.3",
-    "vite-plus": "0.2.1"
+    "vite-plus": "0.2.2"
   },
   "overrides": {
     "video.js": "8.23.9",
