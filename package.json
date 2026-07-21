@@ -14,7 +14,7 @@
   "dependencies": {
     "@rescript/runtime": "12.3.0",
     "modern-css-reset": "1.4.0",
-    "react": "19.2.7",
+    "react": "19.2.8",
     "react-dom": "19.2.7",
     "video.js": "8.23.9"
   },
