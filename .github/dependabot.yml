@@ -1,0 +1,26 @@
+version: 2
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+      rescript:
+        patterns:
+          - "rescript"
+          - "@rescript/*"
+          - "@jihchi/vite-plugin-rescript"
+      tailwindcss:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"

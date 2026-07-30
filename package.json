@@ -20,12 +20,10 @@
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
-    "@react-scan/vite-plugin-react-scan": "0.2.7",
     "@rescript/react": "0.15.0",
     "@tailwindcss/vite": "4.3.3",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "26.1.2",
-    "react-scan": "0.5.7",
     "rescript": "12.3.0",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2",
