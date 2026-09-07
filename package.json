@@ -12,25 +12,25 @@
     "lint": "vp check && rescript format --check"
   },
   "dependencies": {
-    "@rescript/runtime": "12.3.0",
+    "@rescript/runtime": "12.3.1",
     "modern-css-reset": "1.4.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "video.js": "8.23.9"
+    "video.js": "8.24.0"
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "8.0.0-beta.2",
     "@rescript/react": "0.15.0",
     "@tailwindcss/vite": "4.3.3",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "26.1.2",
-    "rescript": "12.3.0",
+    "@types/node": "26.4.1",
+    "rescript": "12.3.1",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2",
-    "vite-plus": "0.2.6"
+    "vite-plus": "0.3.0"
   },
   "overrides": {
-    "video.js": "8.23.9",
+    "video.js": "8.24.0",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest"
   }
 }
