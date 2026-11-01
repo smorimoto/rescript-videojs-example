@@ -23,7 +23,7 @@ jobs:
           persist-credentials: false
 
       - name: Set up Mise
-        uses: jdx/mise-action@9149ea85001c7435d5a66bb127d6a1b6227cb0a5 # v5.0.0
+        uses: jdx/mise-action@6be3c7ed4c21d4f76b208d351d95aac273ebb76d # v5.2.4
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
